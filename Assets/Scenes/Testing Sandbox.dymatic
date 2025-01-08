@@ -1,0 +1,1980 @@
+Scene: Untitled
+Settings:
+  Gravity: [0, -9.81000042, 0]
+Entities:
+  - Entity: 3420895414390577229
+    TagComponent:
+      Tag: Aberration Post Processing Volume
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [20.9244633, -2.5371592, 3.53855205]
+      Rotation: [0, -0, 0]
+      Scale: [5, 5, 5]
+    PostProcessVolumeComponent:
+      Bounded: true
+      Enabled: true
+      Material: 16694012550325647175
+  - Entity: 2997288991887016480
+    TagComponent:
+      Tag: Box
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [2.97431111, 4.66093445, 1.01722765]
+      Rotation: [1.62072074, -4.80247706e-07, -15.2724514]
+      Scale: [0.999999523, 0.99999994, 1]
+    StaticMeshComponent:
+      {}
+    RigidbodyComponent:
+      BodyType: Dynamic
+      Sensor: false
+      Mode: Density
+      Density: 2000
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+    DistanceConstraintComponent:
+      Target: 7822292069244151641
+      Enabled: true
+      Type: Range
+      Min Distance: 0.5
+      Max Distance: 4
+    SpringConstraintComponent:
+      Type: Frequency And Damping
+      Frequency: 0.5
+      Damping: 0.100000001
+  - Entity: 14921166348481205585
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [11.4768658, 0, 0.990790725]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    TextComponent:
+      TextString: Hello World!
+      Alignment: Left
+      Color: [1, 1, 1, 1]
+      Font: 0
+      Kerning: 0
+      LineSpacing: 0
+      MaxWidth: 0
+  - Entity: 5186618292223968976
+    TagComponent:
+      Tag: Spline
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 2025512565444613869
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [8.90650082, -3.172364, 4.02788687]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 8
+      Radius: 5
+      Casts Shadows: true
+  - Entity: 1569309157255063386
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [15.5044546, -3.76614189, 12.1183023]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 23
+      Radius: 9
+      Casts Shadows: true
+  - Entity: 757861822292233697
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [16.2632141, -4.14320135, 16.5562229]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      {}
+  - Entity: 13353520436107582414
+    TagComponent:
+      Tag: Foot
+    Parent: 11116923406971269488
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:LeftFoot
+    TransformComponent:
+      Translation: [-0.000896453857, 10.5881243, -1.28133774]
+      Rotation: [22.823307, 0.00139333354, 0.00137346471]
+      Scale: [8.84128571, 17.7662926, 1.00000203]
+    StaticMeshComponent:
+      {}
+  - Entity: 6945290105468943199
+    TagComponent:
+      Tag: Foot
+    Parent: 11116923406971269488
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:RightFoot
+    TransformComponent:
+      Translation: [-0.00109386444, 10.5877352, -1.28145027]
+      Rotation: [22.8231716, 0.00137736427, 0.00140943355]
+      Scale: [8.84691048, 18.0473213, 1.00000095]
+    StaticMeshComponent:
+      {}
+  - Entity: 17289096557287060839
+    TagComponent:
+      Tag: HighFaceCube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-13.8955774, -4.45983219, -2.06544495]
+      Rotation: [0, -0, 0]
+      Scale: [0.0500000007, 0.00999999978, 0.0500000007]
+    StaticMeshComponent:
+      Mesh: 5602718689648723446
+      Materials:
+        - 0
+        - 9490940052837983050
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [100, 100, 100]
+  - Entity: 9697940192882806259
+    TagComponent:
+      Tag: Test Video
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [17.8030396, -0.476720095, 2.98023224e-07]
+      Rotation: [0, -0, 0]
+      Scale: [5, 5, 5]
+    ScriptComponent:
+      ClassName: Sandbox.ImagePainter
+      ScriptFields:
+        - Name: Target
+          Type: VirtualTexture
+          Data: 15505756889176045656
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture: 15505756889176045656
+      TilingFactor: 1
+  - Entity: 3851486174806559006
+    TagComponent:
+      Tag: Particle System
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-13.4592361, -1.97053051, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ParticleSystemComponent:
+      Particle System: 14776471468134628941
+  - Entity: 15051188492972192537
+    TagComponent:
+      Tag: Snow Capture
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-13.8956003, 0.776156664, -2.06543994]
+      Rotation: [-89.9977036, -89.1906052, -0.00229668315]
+      Scale: [1.00000012, 0.99999702, 0.999996662]
+    CameraComponent:
+      Camera:
+        ProjectionType: Orthographic
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: 0
+        OrthographicFar: 20
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 2
+        DOFStrength: 0
+        DOFTarget: 0
+        DOFFocusRange: 1
+        DOFFocusFalloff: 0
+    CaptureComponent:
+      Capture: true
+      Cumulative: true
+      Target: 1048203403619256744
+      Type: Roughness
+      Mask: Inclusive
+    ScriptComponent:
+      ClassName: Sandbox.CaptureEntity
+      ScriptFields:
+        - Name: Target1
+          Type: Entity
+          Data: 13353520436107582414
+        - Name: Target2
+          Type: Entity
+          Data: 6945290105468943199
+  - Entity: 2130491047399196887
+    TagComponent:
+      Tag: Test Video
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [4.12818813, -0.476720095, 2.38418579e-07]
+      Rotation: [0, -0, 0]
+      Scale: [7.95660019, 4.47000027, 4.47000027]
+    ScriptComponent:
+      ClassName: Sandbox.VideoPlayerEntity
+      ScriptFields:
+        - Name: Subtitles
+          Type: Entity
+          Data: 3672289743740379025
+        - Name: VideoPlayer
+          Type: VideoPlayer
+          Data: 2041059754665126795
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture: 7212506266849560957
+      TilingFactor: 1
+  - Entity: 11777000294409980816
+    TagComponent:
+      Tag: Camera
+    Parent: 14750864503321404266
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 1.5
+        DOFStrength: 10
+        DOFTarget: 3.20000005
+        DOFFocusRange: 4
+        DOFFocusFalloff: 20
+  - Entity: 14750864503321404266
+    TagComponent:
+      Tag: Spring Arm
+    Parent: 9478594616091979568
+    Children:
+      - Handle: 11777000294409980816
+    TransformComponent:
+      Translation: [0, 1.29999995, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SpringArmComponent:
+      TargetLength: 3
+      ProbeRadius: 0.119999997
+      TargetOffset: [0, 0, 0]
+      SocketOffset: [0, 0, -0.25]
+  - Entity: 6020601172734266679
+    TagComponent:
+      Tag: Script
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassName: Sandbox.BoundsChecker
+  - Entity: 15503968744543153245
+    TagComponent:
+      Tag: Dragon_8K
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-0.381130815, -3.8381114, 22.1038628]
+      Rotation: [0, -0, 0]
+      Scale: [0.0399999991, 0.0399999991, 0.0399999991]
+    StaticMeshComponent:
+      Mesh: 7633930703833097497
+      Materials:
+        - 14779317861847347546
+  - Entity: 9478594616091979568
+    TagComponent:
+      Tag: Character
+    Parent: 0
+    Children:
+      - Handle: 11116923406971269488
+      - Handle: 14750864503321404266
+    PrefabComponent:
+      Prefab: 6357898760827335315
+    TransformComponent:
+      Translation: [-7.79792833, -1.24791372, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassName: Sandbox.Character
+      ScriptFields:
+        []
+  - Entity: 307521428234867772
+    TagComponent:
+      Tag: Target
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 8275873030634214028
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, -2.19025373, 0]
+      Rotation: [0, -0, 0]
+      Scale: [10, 5, 10]
+  - Entity: 8467393796197634963
+    TagComponent:
+      Tag: Pivot
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 3.67797995, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [0.00999999978, 0.00999999978, 0.00999999978]
+  - Entity: 8416562700303441142
+    TagComponent:
+      Tag: Crate
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-1.22571552, -4.00911713, -0.264631003]
+      Rotation: [1.62071741, -0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      Mesh: 6572521292726454524
+      Materials:
+        - 7514340828595128530
+    RigidbodyComponent:
+      BodyType: Dynamic
+      Sensor: false
+      Mode: Density
+      Density: 2000
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 7822292069244151641
+    TagComponent:
+      Tag: Pivot Point
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0.569755077, 6.66104126, 1.05390179]
+      Rotation: [1.62072074, -4.80247706e-07, -15.2724514]
+      Scale: [0.999999523, 0.99999994, 1]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 0
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 2000
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    SphereColliderComponent:
+      Radius: 0.100000001
+  - Entity: 8522976708123763479
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 2370728654043728086
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 12785037572505033599
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 7785379701377817932
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 2889897624251674580
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 6850006623429832001
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 3239467065170079095
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 15233843168238588469
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 8133636990997607807
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3217516770891492408
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 9446463678157773747
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 11002337963109329721
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 17373248969541211148
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 16190726982421346868
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 7104007536705580429
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 13987526828980801443
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 11023006961748915951
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3836428308891655845
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 9415834760985882998
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 12144002842556407366
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 3021103045800212609
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 17017508436447423058
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 9461568082262203355
+    TagComponent:
+      Tag: Directional Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [-0.601923347, 0.588127077, -28.4002266]
+      Scale: [0.999995112, 0.999998808, 0.999994397]
+    DirectionalLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 1
+  - Entity: 2140828058943526102
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, -5.08729839, 0]
+      Rotation: [0, -0, 0]
+      Scale: [20, 0.5, 20]
+    StaticMeshComponent:
+      Mesh: 776674734317656422
+      Materials:
+        - 6204135422442470898
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [1.00999999, 1.00999999, 1.00999999]
+  - Entity: 8355034380701292495
+    TagComponent:
+      Tag: Sky Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SkyLightComponent:
+      Type: Environment Map
+      Environment Map: 17735401621527597242
+      Intensity: 0.100000001
+  - Entity: 1725603257387342626
+    TagComponent:
+      Tag: Sphere
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-2.1561327, -3.52384472, 2.60677338]
+      Rotation: [0, -0, 0]
+      Scale: [1.19944, 1.19944, 1.19944]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 14353274569210663247
+  - Entity: 2801729763523989237
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-0.97606194, 1.39141905, 14.9363222]
+      Rotation: [-9.07564831, 11.8258533, -1.09035994e-07]
+      Scale: [0.999999642, 0.999999821, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 2
+        DOFStrength: 0
+        DOFTarget: 0
+        DOFFocusRange: 1
+        DOFFocusFalloff: 0
+  - Entity: 15091678344319845435
+    TagComponent:
+      Tag: Test Video
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-14.3943119, -0.476719677, -9.83855343]
+      Rotation: [0, -0, 0]
+      Scale: [5, 5, 5]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      Texture: 1048203403619256744
+      TilingFactor: 1
+  - Entity: 14978711182766706232
+    TagComponent:
+      Tag: Cube 1
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [3.99050713, 6.85632849, 16.8371334]
+      Rotation: [1.62072074, -4.80247706e-07, -15.2724514]
+      Scale: [0.999999523, 0.99999994, 1]
+    ScriptComponent:
+      ClassName: Sandbox.Test
+    StaticMeshComponent:
+      {}
+    RigidbodyComponent:
+      BodyType: Dynamic
+      Sensor: false
+      Mode: Density
+      Density: 2000
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 11116923406971269488
+    TagComponent:
+      Tag: Mesh
+    Parent: 9478594616091979568
+    Children:
+      - Handle: 14838979243617754359
+      - Handle: 6945290105468943199
+      - Handle: 13353520436107582414
+    TransformComponent:
+      Translation: [0, 1.1920929e-07, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 716246267807772655
+      Animation Graph: 2979490730784123068
+      Materials:
+        - 0
+        - 0
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    MeshColliderComponent:
+      MeshType: Convex
+  - Entity: 9901981445881102690
+    TagComponent:
+      Tag: Stairs
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-6.76243925, -4.44722843, 1.51319206]
+      Rotation: [-90.1652298, 89.9259872, -0.0211496688]
+      Scale: [0.0139779961, 0.0139784655, 0.013977997]
+    StaticMeshComponent:
+      Mesh: 10497723400724218776
+      Materials:
+        - 0
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    MeshColliderComponent:
+      MeshType: Triangle
+  - Entity: 14059214332017705106
+    TagComponent:
+      Tag: Cape
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0.00135475397, 0.654110909, 3.42921686]
+      Rotation: [-27.5557709, 0, 0]
+      Scale: [0.0556577295, 0.104522236, 1]
+    StaticMeshComponent:
+      {}
+    SoftBodyComponent:
+      Friction: 1
+      Restitution: 0
+      Pressure: 0
+      VertexMass: 0.00999999978
+      VertexRadius: 0.0500000007
+      UseVertexColorAsWeight: true
+  - Entity: 3672289743740379025
+    TagComponent:
+      Tag: Subtitle Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [4.13253689, -1.84389973, 0.0977830887]
+      Rotation: [0, -0, 0]
+      Scale: [0.435200006, 0.435200006, 0.435200006]
+    TextComponent:
+      TextString: Subtitle
+      Alignment: Center
+      Color: [1, 1, 1, 1]
+      Font: 1319014424216350298
+      Kerning: 0
+      LineSpacing: 0
+      MaxWidth: 15
+  - Entity: 14838979243617754359
+    TagComponent:
+      Tag: Gun
+    Parent: 11116923406971269488
+    Children:
+      - Handle: 18102562802386142833
+    AttachmentComponent:
+      Bone Name: mixamorig:RightHand
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 18102562802386142833
+    TagComponent:
+      Tag: Gun Model
+    Parent: 14838979243617754359
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.43481445, 32.0814819, 5.41949463]
+      Rotation: [0.585935175, 2.09831667, -11.5439272]
+      Scale: [4.17005396, 36.1652946, 4.17007542]
+    StaticMeshComponent:
+      {}
+  - Entity: 17457661269956183933
+    TagComponent:
+      Tag: Aloy
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [8.76676941, -4.88657427, 3.2583828]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 9397566944547788477
+      Materials:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 8858149778600243352
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1766049325897744860
+        - 11186041834872370716
+        - 0
+        - 0
+        - 5142922616155577253
+        - 0
+        - 5401511811455878384
+        - 4528694255846616368
+        - 4528694255846616368
+        - 4528694255846616368
+        - 0
+        - 4528694255846616368
+        - 4528694255846616368
+        - 4528694255846616368
+        - 4528694255846616368
+        - 4528694255846616368
+        - 0
+        - 0
+  - Entity: 17400079587920269898
+    TagComponent:
+      Tag: Chair
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [15.8165655, -5.08949184, 11.3235826]
+      Rotation: [-89.9999847, 0, 0]
+      Scale: [1, 0.999989212, 0.999989212]
+    StaticMeshComponent:
+      Mesh: 15436465561493344020
+      Materials:
+        - 0
+  - Entity: 12057061982990914643
+    TagComponent:
+      Tag: Spline
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 16696141365465458185
+    TagComponent:
+      Tag: Sphere
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-16.4943943, -2.80497241, -1.92353368]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 14779317861847347546
+  - Entity: 10188818192768581799
+    TagComponent:
+      Tag: Spline
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [12.9340801, 0, 9.32339668]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SplineComponent:
+      Points:
+        - Position: [0, 1, 0]
+          Tangent: [1, -1.29999995, -1.70000005]
+          Type: Curve
+        - Position: [2.0999999, 1, 0]
+          Tangent: [0, 2.70000005, 0]
+          Type: Curve
+        - Position: [3.20000005, -0.200000003, 0.400000006]
+          Tangent: [0, 2.70000005, -14.1000004]
+          Type: Curve
+  - Entity: 8309682864864527744
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.90977097, 3.11201239, 11.8057518]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 20
+      Radius: 5
+      Casts Shadows: false
+  - Entity: 8612243894472055853
+    TagComponent:
+      Tag: Landscape
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-3.17173004, -4.76650667, 27.2979126]
+      Rotation: [0, -0, 0]
+      Scale: [20, 1, 20]
+    LandscapeComponent:
+      Resolution: [32, 32]
+      Material: 1012109964294549814
+      Height:
+        - 3.06585288
+        - 2.98221517
+        - 1.8733449
+        - 1.05736399
+        - 0.795037806
+        - 0.735109627
+        - 1.00306308
+        - 1.00243163
+        - 0.926813245
+        - 0.749667406
+        - 0.262936532
+        - 0.16511181
+        - 0.401459187
+        - 0.504129112
+        - 0.353457838
+        - 0.173312917
+        - 0.223587617
+        - 0.396854401
+        - 0.542234421
+        - 0.565194488
+        - 0.419510156
+        - 0.175678775
+        - 0.146419361
+        - 0.787462473
+        - 2.06115723
+        - 2.56171441
+        - 2.5502367
+        - 1.75028765
+        - 0.804946184
+        - 0.71069926
+        - 0.757660806
+        - 0.884619892
+        - 2.63769579
+        - 2.49033594
+        - 1.31667221
+        - 0.452934057
+        - 0.153402165
+        - 0.0506352112
+        - 0.423650801
+        - 0.789454639
+        - 0.847568572
+        - 0.657006085
+        - 0.223263636
+        - 0.343243718
+        - 0.7462008
+        - 0.910376012
+        - 0.78866899
+        - 0.410761893
+        - 0.366925806
+        - 0.668731332
+        - 0.878472149
+        - 0.789830625
+        - 0.582052112
+        - 0.215540543
+        - 0.0059857606
+        - 0.0562179089
+        - 0.698044062
+        - 1.29229999
+        - 1.53516829
+        - 1.38594937
+        - 1.37140465
+        - 1.2269206
+        - 0.657381833
+        - 0.478556722
+        - 1.69074368
+        - 1.27170789
+        - 0.522283435
+        - 0.34696883
+        - 0.244480789
+        - 0.0598332696
+        - 0.138743788
+        - 0.517645419
+        - 0.659291148
+        - 0.422452986
+        - 0.103699021
+        - 0.464209944
+        - 0.977115214
+        - 1.18092763
+        - 1.07866347
+        - 0.701012909
+        - 0.671900511
+        - 1.01883936
+        - 1.19576693
+        - 0.942364693
+        - 0.628154993
+        - 0.289718688
+        - 0.0173778012
+        - 0
+        - 0.0041713356
+        - 0.0701908991
+        - 0.557998896
+        - 1.40262449
+        - 1.72429633
+        - 1.74158692
+        - 1.42297077
+        - 0.795865834
+        - 0.513296962
+        - 0.461290359
+        - 0.617268264
+        - 0.775081217
+        - 0.672947645
+        - 0.323740453
+        - 0.177524805
+        - 0.346442759
+        - 0.467585444
+        - 0.405257821
+        - 0.225339174
+        - 0.386891425
+        - 0.874596238
+        - 1.08480215
+        - 0.966268539
+        - 0.812566519
+        - 0.911094248
+        - 1.1279155
+        - 1.30501473
+        - 1.05720448
+        - 0.709796309
+        - 0.472655147
+        - 0.209426045
+        - 0.0635270849
+        - 0.00329662883
+        - 0.000170298677
+        - 0.426752836
+        - 1.33267915
+        - 1.87533259
+        - 3.05892062
+        - 3.37439752
+        - 2.40233064
+        - 0.142421305
+        - 0.634726346
+        - 1.17493975
+        - 1.34566438
+        - 1.24929273
+        - 0.867703497
+        - 0.625486672
+        - 0.660645902
+        - 0.693419337
+        - 0.608306587
+        - 0.357735574
+        - 0.211938828
+        - 0.453862965
+        - 0.622430146
+        - 0.56602931
+        - 0.639684498
+        - 0.911210477
+        - 1.08451509
+        - 1.18310082
+        - 0.96307689
+        - 0.73442924
+        - 0.671422005
+        - 0.60466671
+        - 0.447377026
+        - 0.17786698
+        - 0.0804386064
+        - 0.347844124
+        - 1.31982458
+        - 2.4960351
+        - 4.38143826
+        - 4.49864197
+        - 3.4759829
+        - 0.544532299
+        - 1.34051943
+        - 2.00803065
+        - 2.07680511
+        - 1.70551085
+        - 1.42628765
+        - 1.44919586
+        - 1.4673022
+        - 1.26868427
+        - 0.938589096
+        - 0.562835276
+        - 0.266345382
+        - 0.200036079
+        - 0.21573922
+        - 0.203368276
+        - 0.326054007
+        - 0.629613519
+        - 0.848353922
+        - 0.835330129
+        - 0.638605237
+        - 0.67882508
+        - 0.804069757
+        - 0.95682776
+        - 0.909665525
+        - 0.602200985
+        - 0.386339366
+        - 0.380131483
+        - 1.24118698
+        - 2.91829896
+        - 4.90471029
+        - 5.09654617
+        - 3.84460998
+        - 0.913655162
+        - 1.69584
+        - 2.30988455
+        - 2.3902669
+        - 1.82940733
+        - 1.82667327
+        - 2.12409139
+        - 2.25696945
+        - 2.03859615
+        - 1.58542418
+        - 1.57270372
+        - 1.52493453
+        - 1.06464434
+        - 0.459404409
+        - 0.0955637619
+        - 0.132998005
+        - 0.304190665
+        - 0.470011473
+        - 0.451062292
+        - 0.355508834
+        - 0.4957982
+        - 0.771999002
+        - 1.06839657
+        - 1.10704207
+        - 0.898139358
+        - 0.694199622
+        - 0.528316677
+        - 1.50197947
+        - 2.99258494
+        - 4.47665024
+        - 4.81379461
+        - 3.33265042
+        - 0.884726942
+        - 1.67588401
+        - 2.20695662
+        - 2.19454169
+        - 1.7683655
+        - 1.89322698
+        - 2.40772438
+        - 2.73506403
+        - 2.91541457
+        - 2.9002409
+        - 3.32734394
+        - 3.13742614
+        - 2.33976865
+        - 1.34245157
+        - 0.443566024
+        - 0.215008259
+        - 0.318068862
+        - 0.452677757
+        - 0.448909461
+        - 0.288546383
+        - 0.166767925
+        - 0.409688503
+        - 0.860382736
+        - 1.02253795
+        - 0.951785862
+        - 0.857954681
+        - 0.816002488
+        - 1.86518002
+        - 3.49466467
+        - 4.56529188
+        - 4.50337601
+        - 2.48092628
+        - 0.502097964
+        - 1.24275589
+        - 1.71205342
+        - 1.63987362
+        - 1.48032987
+        - 1.85260725
+        - 2.25292206
+        - 2.68967962
+        - 3.0696373
+        - 3.3027606
+        - 3.84298491
+        - 3.66442823
+        - 2.81659102
+        - 1.83936131
+        - 0.949010909
+        - 0.695474386
+        - 0.678762674
+        - 0.623538315
+        - 0.580798566
+        - 0.443743646
+        - 0.186144531
+        - 0.10529393
+        - 0.445421576
+        - 0.765384257
+        - 0.903169692
+        - 0.88587445
+        - 1.14058816
+        - 2.24483991
+        - 4.30550528
+        - 5.74124908
+        - 5.15394258
+        - 3.13366866
+        - 0.0598478317
+        - 0.48853901
+        - 0.991778016
+        - 1.2265228
+        - 1.33149362
+        - 1.51547289
+        - 1.78040051
+        - 2.05231404
+        - 2.31553483
+        - 2.59416127
+        - 3.12377906
+        - 3.10053158
+        - 2.4452498
+        - 1.76496387
+        - 1.40722263
+        - 1.3366977
+        - 1.20838404
+        - 0.875468314
+        - 0.633754492
+        - 0.5279091
+        - 0.284118712
+        - 0.0931028053
+        - 0.155299723
+        - 0.485575616
+        - 0.779487133
+        - 0.96044153
+        - 1.54291117
+        - 2.42765689
+        - 4.23504925
+        - 5.56051826
+        - 4.83485842
+        - 3.31940746
+        - 0
+        - 0.110566147
+        - 0.717014372
+        - 1.23835278
+        - 1.42222643
+        - 1.42561257
+        - 1.38692629
+        - 1.3747189
+        - 1.3457551
+        - 1.37284601
+        - 1.45206606
+        - 1.42753756
+        - 1.26166761
+        - 1.28877556
+        - 1.51208735
+        - 1.4351666
+        - 1.22992384
+        - 0.868935704
+        - 0.560029209
+        - 0.489241898
+        - 0.331721991
+        - 0.18782793
+        - 0.0963324681
+        - 0.337021351
+        - 0.651330113
+        - 1.07413137
+        - 1.84307468
+        - 2.50280738
+        - 3.59983706
+        - 4.54246616
+        - 4.00362968
+        - 2.70746732
+        - 0.000870099757
+        - 0.12950407
+        - 0.53960526
+        - 0.953047097
+        - 1.28656161
+        - 1.33811247
+        - 1.09420788
+        - 0.908912122
+        - 0.597246647
+        - 0.421350777
+        - 0.32742843
+        - 0.322329164
+        - 0.54343462
+        - 0.949954033
+        - 1.30865014
+        - 1.21618259
+        - 0.882995248
+        - 0.452116847
+        - 0.269717753
+        - 0.336141229
+        - 0.324092388
+        - 0.261358738
+        - 0.121698648
+        - 0.23746267
+        - 0.473350406
+        - 0.980384946
+        - 1.95630896
+        - 2.76121449
+        - 2.99355054
+        - 2.7939384
+        - 2.04733896
+        - 1.27207327
+        - 0.00208567502
+        - 0.139137417
+        - 0.4306463
+        - 0.620836258
+        - 0.867500007
+        - 0.89875859
+        - 0.672286808
+        - 0.566237628
+        - 0.394682258
+        - 0.213593066
+        - 0.151664779
+        - 0.242021158
+        - 0.387280017
+        - 0.546529531
+        - 0.752227366
+        - 0.687863231
+        - 0.429608881
+        - 0.133992791
+        - 0.124429345
+        - 0.256523967
+        - 0.293020219
+        - 0.311047584
+        - 0.206406638
+        - 0.195989504
+        - 0.295013368
+        - 0.844450295
+        - 2.02620339
+        - 2.76843333
+        - 2.86670065
+        - 1.91560078
+        - 0.716608107
+        - 0.275785178
+        - 0.0256589651
+        - 0.0560464002
+        - 0.258034796
+        - 0.407318234
+        - 0.55662185
+        - 0.655251026
+        - 0.614168346
+        - 0.442408234
+        - 0.162945822
+        - 0.0333989263
+        - 0.0317526273
+        - 0.131066307
+        - 0.250704944
+        - 0.269813925
+        - 0.178797022
+        - 0.149575934
+        - 0.193468645
+        - 0.18082808
+        - 0.14503175
+        - 0.153586373
+        - 0.219769508
+        - 0.278347313
+        - 0.268906146
+        - 0.256767392
+        - 0.206601202
+        - 0.494171083
+        - 1.72770131
+        - 2.53505063
+        - 2.62709355
+        - 2.04679751
+        - 0.88627708
+        - 0.236360565
+        - 2.1463027
+        - 1.63713694
+        - 0.450079441
+        - 0.358723849
+        - 0.629898787
+        - 0.860228717
+        - 0.786490798
+        - 0.462341517
+        - 0.240392625
+        - 0.210889623
+        - 0.157070071
+        - 0.0485616475
+        - 0.0512497984
+        - 0.0476712659
+        - 0.0399768129
+        - 0.209536821
+        - 0.374856412
+        - 0.520996153
+        - 0.457666785
+        - 0.209303468
+        - 0.115104146
+        - 0.237911537
+        - 0.32803458
+        - 0.338579535
+        - 0.232503787
+        - 0.129035905
+        - 0.960328639
+        - 1.96937227
+        - 2.33125854
+        - 2.01028585
+        - 1.14025819
+        - 0.508143604
+        - 4.7262516
+        - 4.35350418
+        - 2.21893573
+        - 1.02265704
+        - 1.2254684
+        - 1.32500935
+        - 1.14404607
+        - 0.74984318
+        - 0.588517547
+        - 0.487919539
+        - 0.423073232
+        - 0.196582213
+        - 0.00277552963
+        - 0
+        - 0.0486280508
+        - 0.266170055
+        - 0.593084216
+        - 0.868593335
+        - 0.841217577
+        - 0.489098519
+        - 0.142191291
+        - 0.181489527
+        - 0.334987253
+        - 0.379932046
+        - 0.285110146
+        - 0.0918422416
+        - 0.287978679
+        - 1.00075638
+        - 1.64493537
+        - 1.79013312
+        - 1.38007951
+        - 0.803362072
+        - 5.39878368
+        - 5.24480867
+        - 3.25748491
+        - 1.52724648
+        - 1.71028364
+        - 1.94057882
+        - 1.64608824
+        - 1.00075328
+        - 0.756322682
+        - 0.593600631
+        - 0.522918522
+        - 0.293357074
+        - 0.018210806
+        - 0
+        - 0.0175046828
+        - 0.219800964
+        - 0.659457386
+        - 1.01495564
+        - 1.05570185
+        - 0.80656451
+        - 0.336722255
+        - 0.11367745
+        - 0.287947655
+        - 0.366922408
+        - 0.322866142
+        - 0.157292336
+        - 0.180837601
+        - 0.499660313
+        - 1.24253798
+        - 1.79244006
+        - 1.58877563
+        - 0.985931218
+        - 8.34067535
+        - 6.57782745
+        - 2.78680491
+        - 1.49827826
+        - 1.91066921
+        - 2.16072917
+        - 1.73493123
+        - 1.02275133
+        - 0.821561635
+        - 0.768918455
+        - 0.675551832
+        - 0.328995049
+        - 0.022683356
+        - 0
+        - 7.75008721e-06
+        - 0.0711529329
+        - 0.42910707
+        - 0.906526029
+        - 1.07755136
+        - 0.990858912
+        - 0.588194788
+        - 0.215272948
+        - 0.245103151
+        - 0.368650168
+        - 0.391987145
+        - 0.273305655
+        - 0.210174114
+        - 0.480553478
+        - 1.196015
+        - 1.73600471
+        - 1.59055376
+        - 1.01478708
+        - 11.9080915
+        - 9.97327328
+        - 4.91217041
+        - 2.59341717
+        - 2.22633862
+        - 1.81493425
+        - 1.37201238
+        - 0.916656554
+        - 0.662082136
+        - 0.694997668
+        - 0.632579863
+        - 0.325386047
+        - 0.109470651
+        - 0.00792638212
+        - 0
+        - 0.00511752674
+        - 0.147040218
+        - 0.561396778
+        - 0.864792228
+        - 0.948047817
+        - 0.786762595
+        - 0.493215173
+        - 0.336132407
+        - 0.415207177
+        - 0.546930194
+        - 0.549817741
+        - 0.887640774
+        - 1.3033011
+        - 1.89404869
+        - 1.80878794
+        - 1.44491816
+        - 0.940186679
+        - 12.562211
+        - 12.5951624
+        - 9.53284264
+        - 5.9186368
+        - 4.22587109
+        - 2.1716032
+        - 1.06050611
+        - 0.693741858
+        - 0.613907039
+        - 0.746347308
+        - 0.621307731
+        - 0.371545136
+        - 0.187527731
+        - 0.0302606225
+        - 0
+        - 0
+        - 0.0194889754
+        - 0.228576243
+        - 0.603053331
+        - 0.935782552
+        - 1.00428724
+        - 0.889194727
+        - 0.747180521
+        - 0.665418267
+        - 0.706197262
+        - 1.02836585
+        - 1.88362622
+        - 2.11801052
+        - 2.59916735
+        - 2.35723853
+        - 1.41159213
+        - 0.83786732
+        - 12.1791115
+        - 13.0701275
+        - 10.8885727
+        - 7.64704323
+        - 5.63513231
+        - 2.77834654
+        - 0.748461723
+        - 0.490463614
+        - 0.859060705
+        - 1.13737178
+        - 1.03935361
+        - 0.630577803
+        - 0.274751157
+        - 0.0893914402
+        - 0.00396364462
+        - 0
+        - 0
+        - 0.0877198279
+        - 0.539311111
+        - 1.04064679
+        - 1.29920006
+        - 1.22460258
+        - 1.02778029
+        - 0.978904665
+        - 0.849690616
+        - 1.15459549
+        - 2.05449009
+        - 2.2336154
+        - 2.60561538
+        - 2.36946177
+        - 1.30681372
+        - 0.684472084
+        - 7.4377017
+        - 8.8910408
+        - 8.75600815
+        - 7.5793643
+        - 5.48240614
+        - 2.44243717
+        - 0.49055171
+        - 0.50137341
+        - 0.893969655
+        - 1.17584908
+        - 1.26954436
+        - 0.936458588
+        - 0.525073051
+        - 0.230086848
+        - 0.0486874245
+        - 0
+        - 1.54818044e-05
+        - 0.154852033
+        - 0.478227943
+        - 0.848991275
+        - 1.26037776
+        - 1.31937003
+        - 1.06474602
+        - 0.966626465
+        - 0.791124344
+        - 0.803016901
+        - 1.54434991
+        - 1.92152488
+        - 2.22787595
+        - 1.90465248
+        - 1.14907539
+        - 0.594680905
+        - 1.73782396
+        - 3.21552253
+        - 5.11425638
+        - 5.55450678
+        - 3.78484082
+        - 1.45814848
+        - 0.2672683
+        - 0.54030931
+        - 1.09438491
+        - 1.48428893
+        - 1.56960392
+        - 1.24745512
+        - 0.844787836
+        - 0.436237514
+        - 0.124232017
+        - 0.0239657518
+        - 0.0421684533
+        - 0.26814121
+        - 0.711450636
+        - 0.940910935
+        - 1.12736368
+        - 1.2262454
+        - 1.1139338
+        - 0.878347456
+        - 0.585207105
+        - 0.422280431
+        - 0.569991827
+        - 0.954626203
+        - 1.48345661
+        - 1.44986415
+        - 1.25323069
+        - 0.633596718
+        - 0.797362387
+        - 1.3487128
+        - 2.27078485
+        - 2.51927543
+        - 1.67316091
+        - 0.632763982
+        - 0.409314662
+        - 1.01294887
+        - 1.62704837
+        - 1.90775335
+        - 1.7187978
+        - 1.47179627
+        - 1.13369417
+        - 0.670496345
+        - 0.34055686
+        - 0.182365611
+        - 0.287495762
+        - 0.560030282
+        - 1.17233586
+        - 1.35790563
+        - 1.23141754
+        - 1.02707422
+        - 0.816776156
+        - 0.696721911
+        - 0.420997888
+        - 0.214846045
+        - 0.190055475
+        - 0.553690076
+        - 1.39523876
+        - 1.65074873
+        - 1.38177371
+        - 0.671930432
+        - 0.716508389
+        - 1.09400523
+        - 1.41488004
+        - 1.34324384
+        - 0.931463659
+        - 0.69242537
+        - 1.24612844
+        - 1.90684497
+        - 2.10130095
+        - 1.98334312
+        - 1.67325389
+        - 1.6097337
+        - 1.43213582
+        - 1.10794926
+        - 0.835610747
+        - 0.654508412
+        - 0.705859244
+        - 0.948441982
+        - 1.34696841
+        - 1.39822638
+        - 1.1668638
+        - 0.898582995
+        - 0.571859241
+        - 0.505308986
+        - 0.294204593
+        - 0.165705726
+        - 0.318429679
+        - 0.96507287
+        - 1.77744997
+        - 1.91054392
+        - 1.48941529
+        - 0.604119837
+        - 0.69200021
+        - 0.876337707
+        - 1.00703001
+        - 0.932550848
+        - 0.737129748
+        - 0.883187294
+        - 1.8137362
+        - 2.54560351
+        - 2.57045674
+        - 2.03845644
+        - 1.50084901
+        - 1.545439
+        - 1.6081233
+        - 1.5729202
+        - 1.40767455
+        - 1.17546737
+        - 1.1296016
+        - 1.21011543
+        - 1.48065472
+        - 1.45618558
+        - 1.07617617
+        - 0.649784327
+        - 0.377609432
+        - 0.295695722
+        - 0.108780757
+        - 0.149229079
+        - 0.616875052
+        - 1.44848228
+        - 2.08155847
+        - 2.03361392
+        - 1.43578458
+        - 0.408799529
+        - 0.657272279
+        - 0.851530075
+        - 0.909339905
+        - 0.68901068
+        - 0.533056498
+        - 0.857045591
+        - 1.76336801
+        - 2.45615101
+        - 2.3418088
+        - 1.53906441
+        - 0.971025407
+        - 1.21322203
+        - 1.5598805
+        - 1.7849859
+        - 1.66146064
+        - 1.31433344
+        - 1.14216638
+        - 1.05828857
+        - 1.11081958
+        - 1.05558586
+        - 0.701693177
+        - 0.22503531
+        - 0.151364371
+        - 0.189504385
+        - 0.117920637
+        - 0.413064092
+        - 1.10669136
+        - 2.28746605
+        - 2.88726211
+        - 2.29797673
+        - 1.24649322
+        - 0.24934569
+        - 0.5374915
+        - 0.769463301
+        - 0.786640465
+        - 0.497728407
+        - 0.263431847
+        - 0.59010601
+        - 1.50011873
+        - 2.18856645
+        - 1.867172
+        - 0.938620389
+        - 0.505613685
+        - 0.866609514
+        - 1.24633074
+        - 1.45614684
+        - 1.3166815
+        - 1.04742932
+        - 0.819347441
+        - 0.708909035
+        - 0.591191947
+        - 0.485959619
+        - 0.32047528
+        - 0.239528865
+        - 0.450480223
+        - 0.532887399
+        - 0.470151871
+        - 0.865528584
+        - 1.77716279
+        - 2.98476171
+        - 3.38249993
+        - 2.4996078
+        - 1.07090497
+        - 0.17969732
+        - 0.414449245
+        - 0.568136632
+        - 0.542241395
+        - 0.253808409
+        - 0.0232888833
+        - 0.285875797
+        - 1.69119322
+        - 2.70255208
+        - 2.50594997
+        - 1.33154571
+        - 0.275661767
+        - 0.48917231
+        - 0.70692569
+        - 0.751998067
+        - 0.611524284
+        - 0.485118985
+        - 0.384278148
+        - 0.292374909
+        - 0.318240494
+        - 0.286260843
+        - 0.24777171
+        - 0.428412676
+        - 0.726544678
+        - 0.785734832
+        - 0.783840001
+        - 1.23682201
+        - 2.51198101
+        - 3.98697948
+        - 4.11328459
+        - 2.83866262
+        - 1.07356775
+        - 0.104562007
+        - 0.215131059
+        - 0.292626649
+        - 0.221528262
+        - 0.0431301966
+        - 0.0548130982
+        - 0.619377494
+        - 2.73530555
+        - 3.8378458
+        - 3.52793074
+        - 2.01345038
+        - 0.283838421
+        - 0.159903064
+        - 0.24839738
+        - 0.245447963
+        - 0.156892836
+        - 0.0923442617
+        - 0.0438169912
+        - 0.0404030979
+        - 0.0902340859
+        - 0.0958044901
+        - 0.14874731
+        - 0.486059934
+        - 0.813059688
+        - 0.897068083
+        - 1.01569819
+        - 1.51964188
+        - 3.66395807
+        - 5.92932701
+        - 5.66838694
+        - 3.62265968
+        - 1.20134079
+        - 0.0646369085
+        - 0.0433652475
+        - 0.0566239618
+        - 0.0206805952
+        - 0.031587258
+        - 0.222694427
+        - 1.28257215
+        - 3.87746143
+        - 4.88043833
+        - 4.28973055
+        - 2.35116553
+        - 0.237165183
+        - 0.0686536357
+        - 0.0826586336
+        - 0.0179458987
+        - 0.00314148376
+        - 0.00199090433
+        - 0
+        - 0
+        - 0.00227772072
+        - 0.0422217548
+        - 0.292095453
+        - 0.693799913
+        - 0.825240493
+        - 0.736662269
+        - 0.864233732
+        - 1.73607373
+        - 4.22151756
+        - 6.19702435
+        - 5.85303974
+        - 3.87175798
+        - 1.28243685
+        - 0.0747551024
+        - 0.0075805285
+        - 1.42878725e-05
+        - 0
+        - 0.0685051382
+        - 0.334434509
+        - 1.50644672
+        - 3.68296456
+        - 4.64036798
+        - 3.98264432
+        - 1.85950971
+        - 0.483140022
+        - 0.831430137
+        - 0.820623994
+        - 0.355810732
+        - 0.00190810836
+        - 0
+        - 0
+        - 0
+        - 0.0211901255
+        - 0.286454082
+        - 0.775316417
+        - 1.15062451
+        - 1.06508458
+        - 0.579276621
+        - 0.404513299
+        - 1.43589568
+        - 3.58070564
+        - 5.07170105
+        - 4.86701727
+        - 3.21662426
+        - 0.978101075
+        - 0.320806116

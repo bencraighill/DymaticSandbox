@@ -1,0 +1,50 @@
+Prefab: 13618303717941919187
+Entities:
+  - Entity: 7009474989443031579
+    TagComponent:
+      Tag: Mesh
+    Parent: 7278371482497073039
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 15332576941183338892
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.100000001, 0.100000001, 0.100000001]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 2632141117248060411
+  - Entity: 4440653601971973274
+    TagComponent:
+      Tag: Light
+    Parent: 7278371482497073039
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 0.113924026, 0.113924026]
+      Intensity: 2
+      Radius: 5
+      Casts Shadows: false
+  - Entity: 7278371482497073039
+    TagComponent:
+      Tag: Something
+    Parent: 0
+    Children:
+      - Handle: 4440653601971973274
+      - Handle: 7009474989443031579
+    PrefabComponent:
+      Prefab: 13618303717941919187
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 0.25316453, 0.25316453, 1]
+      Texture: 5916335606980297961
+      TilingFactor: 1

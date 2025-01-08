@@ -1,0 +1,33 @@
+Project:
+  Name: Sandbox
+  StartScene: 52261659857970510
+  AssetDirectory: Assets
+  CoreModulePath: Scripts/Binaries/DymaticScriptCore.dll
+  ScriptModulePath: Scripts/Binaries/Sandbox.dll
+  CacheDirectory: Cache
+  Physics:
+    AllowSleeping: false
+    SleepTimer: 0.5
+    PositionSteps: 2
+    VelocitySteps: 10
+    Deterministic: true
+    Layers:
+      - ID: 0
+        Name: Default
+        ExclusionMask:
+          []
+      - ID: 2130201545515936412
+        Name: Soft Body
+        ExclusionMask:
+          - 2130201545515936412
+          - 12401218069367100555
+      - ID: 12401218069367100555
+        Name: Projectile
+        ExclusionMask:
+          - 15308578607126785820
+          - 2130201545515936412
+      - ID: 15308578607126785820
+        Name: Player
+        ExclusionMask:
+          - 15308578607126785820
+          - 2130201545515936412

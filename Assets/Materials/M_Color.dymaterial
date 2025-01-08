@@ -1,0 +1,76 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Opaque
+  CastShadows: true
+  TwoSided: false
+  Lit: true
+  Graph:
+    Nodes:
+      - Node: 16582824225174816835
+        Type: Result
+        Position: [0, 0]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 2888811104065050282
+            Name: Albedo
+            Type: Vector3
+          - Pin: 9490951481128243400
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 1233856696528708860
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 3513693581384188293
+            Name: Roughness
+            Type: Float
+            Data: 0.5
+          - Pin: 17991152974181082945
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 4499360813404307008
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 12048965491903509863
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 7474272312807857471
+            Name: Alpha
+            Type: Float
+            Data: 1
+          - Pin: 9809359425799754418
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 9270453101341467996
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+          - Pin: 11959256552758597551
+            Name: Particle Size
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          []
+      - Node: 3242793209165527849
+        Type: Parameter
+        Position: [-195, 12]
+        Name: Color
+        Inputs:
+          - Pin: 2402516544575356804
+            Name: Default
+            Type: Vector3
+            Data: [0, 0, 0]
+        Outputs:
+          - Pin: 14018792225776689921
+            Type: Vector3
+    Links:
+      - Link: 1063824824813771746
+        Start: 14018792225776689921
+        End: 2888811104065050282

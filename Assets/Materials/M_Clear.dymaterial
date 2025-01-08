@@ -1,0 +1,67 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Translucent
+  CastShadows: true
+  TwoSided: false
+  Lit: true
+  Graph:
+    Nodes:
+      - Node: 17110466169652206028
+        Type: Result
+        Position: [120, 4]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13157235531488372958
+            Name: Albedo
+            Type: Vector3
+            Data: [0, 0, 1]
+          - Pin: 10065914788527901856
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 7333905303888736658
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 11518654416875012033
+            Name: Roughness
+            Type: Float
+            Data: 0.5
+          - Pin: 5411599986522026073
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 9991039841384968922
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 14196458952669132775
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 6732525965992097941
+            Name: Alpha
+            Type: Float
+            Data: 0.5
+          - Pin: 7281581454127914705
+            Name: IOR
+            Type: Float
+            Data: 1.25
+          - Pin: 3418649459916564570
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 18113607162795740479
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+          - Pin: 11869449957024320151
+            Name: Particle Size
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          []
+    Links:
+      []

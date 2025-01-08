@@ -1,0 +1,12 @@
+Material:
+  Parent: 3395590268077999191
+  ParameterOverrides:
+    - Name: Base Tiling
+      Type: Float
+      Value: 0.800000012
+    - Name: Dirt Tiling
+      Type: Float
+      Value: 2
+    - Name: Dirt Blend
+      Type: Float
+      Value: 1.79999995

@@ -1,0 +1,6 @@
+Material:
+  Parent: 14353274569210663247
+  ParameterOverrides:
+    - Name: IOR
+      Type: Float
+      Value: 1.25

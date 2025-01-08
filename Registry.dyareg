@@ -1,0 +1,982 @@
+Registry:
+  - Handle: 18007392007241151052
+    Type: Texture
+    FilePath: Aloy\Textures\plastic_scratches_c_set01_type_129.png
+  - Handle: 9544335508930624588
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set01_type_1.png
+  - Handle: 11561258432487596684
+    Type: Texture
+    FilePath: Aloy\Textures\bodyskin_02_set00_dx10.png
+  - Handle: 5115407030976233100
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_set03_type_13_dx10.png
+  - Handle: 18215114936137138316
+    Type: Mesh Source
+    FilePath: Cube\Cube.fbx
+  - Handle: 16279510054577937228
+    Type: Mesh Source
+    FilePath: Damaged Helmet\Helmet.fbx
+  - Handle: 8273559393367466127
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\Aloy_Hair_Base_Set00_dx10.png
+  - Handle: 5142922616155577253
+    Type: Material
+    FilePath: Aloy\Materials\M_Eyes.dymaterial
+  - Handle: 14342213131824346345
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\eye_set01_type_132.png
+  - Handle: 5916335606980297961
+    Type: Texture
+    FilePath: Particles\pXWVFlzIYk7a3N5SiROaMleLjX0FcmIGhjtmU5u0.png
+  - Handle: 4760818956583682067
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_02_disp_4k.png
+  - Handle: 9628633100358929492
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\SingleColorTexture_#000000FF_type_13_dx10.png
+  - Handle: 18342182993165635392
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\eye_set01_type_132_TEST.png
+  - Handle: 16059804484586782848
+    Type: Material
+    FilePath: Canyon\M_Canyon.dymaterial
+  - Handle: 2662149087696539218
+    Type: Video
+    FilePath: Video\Example.mp4
+  - Handle: 13169664099454851568
+    Type: Mesh Source
+    FilePath: Cube\Floor.fbx
+  - Handle: 11152368753247816304
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_tilable_set00_type_3_dx10.png
+  - Handle: 4528694255846616368
+    Type: Material
+    FilePath: Aloy\Materials\M_Hair.dymaterial
+  - Handle: 14110821780071171440
+    Type: Material
+    FilePath: Materials\M_Displacement.dymaterial
+  - Handle: 13861507560283531120
+    Type: Environment Map
+    FilePath: Environment Maps\kloppenheim_02_puresky_8k.hdr
+  - Handle: 6572521292726454524
+    Type: Mesh
+    FilePath: Crate\Crate.dymesh
+  - Handle: 2734178505062442236
+    Type: Texture
+    FilePath: Damaged Helmet\rougness.png
+  - Handle: 14211919804751155688
+    Type: Animation
+    FilePath: Animation\Running.dyanim
+  - Handle: 12280036834866476200
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_b_set00_type_3_dx10.png
+  - Handle: 9988655578812882984
+    Type: Animation
+    FilePath: Animation\R_Walking Left Turn.dyanim
+  - Handle: 5279959941627413032
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\eye_set01_type_132.png
+  - Handle: 5201379142887456296
+    Type: Material
+    FilePath: Snow\M_SnowParticle.dymaterial
+  - Handle: 4755507655567352445
+    Type: Animation
+    FilePath: Animation\Jumping.dyanim
+  - Handle: 14732838128593354365
+    Type: Texture
+    FilePath: Aloy\Textures\neckscar_healed\aloyneckscar_old_set00_type_3.png
+  - Handle: 13240054329319628349
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_01_bump_4k.png
+  - Handle: 9397566944547788477
+    Type: Mesh
+    FilePath: Aloy\Aloy.dymesh
+  - Handle: 8430364696256006465
+    Type: Mesh Source
+    FilePath: Damaged Helmet\Helmet.obj
+  - Handle: 13061956804522049217
+    Type: Mesh Source
+    FilePath: Animation\Jumping Up.fbx
+  - Handle: 6931550401793427905
+    Type: Font
+    FilePath: Fonts\OpenSans-Regular.ttf
+  - Handle: 15933148800266036161
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_set02_type_137.png
+  - Handle: 1993854937835738128
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyhandrefactor_set00_type_3_dx10.png
+  - Handle: 16381650732121166414
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_set01_type_1.png
+  - Handle: 1055731811386599950
+    Type: Texture
+    FilePath: Particles\T_SmokeSubUV_8X8.png
+  - Handle: 15587546319447804062
+    Type: Mesh
+    FilePath: Dragon\Dragon_80K.dymesh
+  - Handle: 14672555903693998238
+    Type: Texture
+    FilePath: Aloy\Textures\Rain_CMP_512_dx10.png
+  - Handle: 7080736024825812460
+    Type: Mesh Source
+    FilePath: Animation\Jump.fbx
+  - Handle: 15241027120897022253
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_b_set01_type_129_dx10.png
+  - Handle: 6727299498698835298
+    Type: Mesh Source
+    FilePath: Crate\Crate.fbx
+  - Handle: 15430056930843234402
+    Type: Mesh
+    FilePath: Sphere\Sphere.dymesh
+  - Handle: 9297975964552700002
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set04_type_130_dx10.png
+  - Handle: 8864197894070793314
+    Type: Material
+    FilePath: Materials\M_Shiny.dymaterial
+  - Handle: 14819047527489328738
+    Type: Mesh Source
+    FilePath: Morph Targets\Blend Shape Face.fbx
+  - Handle: 15385098542339763505
+    Type: Texture
+    FilePath: Textures\Checkerboard.png
+  - Handle: 1292507676836986054
+    Type: Mesh Source
+    FilePath: Animation\Jumping.fbx
+  - Handle: 5089546427367341382
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_g_set00_type_3_dx10.png
+  - Handle: 865493640156735814
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\aloy_eyebrows_set00_type_3_dx10.png
+  - Handle: 14092014534241096006
+    Type: Texture
+    FilePath: Particles\Smoke30Frames_0.png
+  - Handle: 4104267654390302278
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_set03_type_13.png
+  - Handle: 11769077269679100998
+    Type: Texture
+    FilePath: Aloy\Textures\roughcorrect.png
+  - Handle: 5385743525923386553
+    Type: Environment Map
+    FilePath: Environment Maps\kloofendal_overcast_puresky_2k.hdr
+  - Handle: 11878547500846614422
+    Type: Texture
+    FilePath: Aloy\Textures\regular_diagonalridges_set00_type_3_dx10.png
+  - Handle: 11796998080627732839
+    Type: Animation Graph
+    FilePath: Morph Targets\Test.dyanimgraph
+  - Handle: 13963080972530800999
+    Type: Mesh Source
+    FilePath: Animation\Rifle Aiming Idle.fbx
+  - Handle: 14883099155601805799
+    Type: Texture
+    FilePath: Aloy\Textures\shield\Unfold_01_dx10.png
+  - Handle: 10672673885895605960
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set00_type_3_dx10.png
+  - Handle: 2880511785402215112
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_set01_type_1_dx10.png
+  - Handle: 4885522222486855306
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\softfur_set00_type_3_dx10_TEST_n.png
+  - Handle: 11186041834872370716
+    Type: Material
+    FilePath: Aloy\Materials\M_Hidden.dymaterial
+  - Handle: 9191222380975979036
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyhandrefactor_set01_type_1.png
+  - Handle: 9448139947593701916
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_set02_type_8.png
+  - Handle: 9227327673686307420
+    Type: Texture
+    FilePath: Aloy\Textures\shield\TriangleTilted_MSK_dx10_TEST.png
+  - Handle: 13181726367419740380
+    Type: Texture
+    FilePath: Aloy\Textures\skin_color_lut_dx10.png
+  - Handle: 8084447871728599128
+    Type: Mesh Source
+    FilePath: Animation\girl_walkcycle_test01.fbx
+  - Handle: 11757675750270411864
+    Type: Mesh Source
+    FilePath: Sphere\Sphere.fbx
+  - Handle: 15505756889176045656
+    Type: Virtual Texture
+    FilePath: Video\Canvas.dyvirtex
+  - Handle: 14776471468134628941
+    Type: Particle System
+    FilePath: Snow\PS_Snow.dyparticles
+  - Handle: 14196482627218911307
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\eye_set00_type_3_dx10.png
+  - Handle: 7191431704836621387
+    Type: Mesh Source
+    FilePath: Animation\Standing W_Briefcase Idle.fbx
+  - Handle: 8390924227517014890
+    Type: Subtitle
+    FilePath: Video\Subtitles.srt
+  - Handle: 18216837278876139370
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_set00_type_3_dx10.png
+  - Handle: 10446105777412683068
+    Type: Prefab
+    FilePath: Prefabs\Ball.dyprefab
+  - Handle: 10363460826842134907
+    Type: Skeleton
+    FilePath: Animation\Humanoid.dyskeleton
+  - Handle: 15574776443674599001
+    Type: Texture
+    FilePath: Sword\Sword_low_Material_Metallic.png
+  - Handle: 6525597614592912214
+    Type: Mesh Source
+    FilePath: House\abandonhousemerged.fbx
+  - Handle: 14525133247717771063
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_tilable_set00_type_3_dx10.png
+  - Handle: 10497723400724218776
+    Type: Mesh
+    FilePath: Stairs\Stairs.dymesh
+  - Handle: 10637781727765576088
+    Type: Animation
+    FilePath: Animation\Falling To Landing.dyanim
+  - Handle: 403484061484460031
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_02_diff_4k.jpg
+  - Handle: 1238060353119537151
+    Type: Material
+    FilePath: Materials\M_Color.dymaterial
+  - Handle: 9802912106186583870
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_tilable_set03_type_132.png
+  - Handle: 11544287981421032391
+    Type: Texture
+    FilePath: Textures\DramaticLUT.png
+  - Handle: 11544493877827523124
+    Type: Texture
+    FilePath: Aloy\Textures\silk_a_set01_type_129_dx10.png
+  - Handle: 4814587492848832564
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set03_type_13.png
+  - Handle: 14353274569210663247
+    Type: Material
+    FilePath: Materials\M_Glass.dymaterial
+  - Handle: 5221516323669015768
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_set01_type_1_dx10.png
+  - Handle: 8525305813798910791
+    Type: Texture
+    FilePath: Barber Shop Chair\textures\BarberShopChair_01_nor_gl_4k.png
+  - Handle: 15593527987234787143
+    Type: Texture
+    FilePath: Aloy\Textures\neckscar_healed\aloyneckscar_old_set01_type_1.png
+  - Handle: 16694012550325647175
+    Type: Material
+    FilePath: Materials\M_Aberration.dymaterial
+  - Handle: 1824074999159569954
+    Type: Texture
+    FilePath: Aloy\Textures\silk_a_set00_type_3_dx10.png
+  - Handle: 4127439576181409826
+    Type: Mesh Source
+    FilePath: Animation\Falling To Landing.fbx
+  - Handle: 13930068991709735954
+    Type: Texture
+    FilePath: Damaged Helmet\Image_0.jpg
+  - Handle: 16533851380453632339
+    Type: Texture
+    FilePath: Damaged Helmet\Image_1.jpg
+  - Handle: 1628353954404332257
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_tilable_set03_type_132.png
+  - Handle: 14776687093059871343
+    Type: Mesh
+    FilePath: Morph Targets\Blend Shape Face.dymesh
+  - Handle: 9478620205735991831
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_set02_type_8_dx10.png
+  - Handle: 14941786003819863659
+    Type: Mesh Source
+    FilePath: Aloy\Aloy.fbx
+  - Handle: 12567019134322848363
+    Type: Font
+    FilePath: Fonts\COMICSANSITALIC.ttf
+  - Handle: 3745433416803951354
+    Type: Texture
+    FilePath: Aloy\Textures\neckscar_healed\SingleColorTexture_#3B3B3BFF_type_4_dx10.png
+  - Handle: 12834688730141986547
+    Type: Scene
+    FilePath: Scenes\Physics 2D.dymatic
+  - Handle: 11376745711857119515
+    Type: Mesh Source
+    FilePath: Animation\Falling Idle.fbx
+  - Handle: 15409447134433294454
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_g_set01_type_1_dx10.png
+  - Handle: 4306625371122742279
+    Type: Font
+    FilePath: Fonts\SuperFunky-lgmWw.ttf
+  - Handle: 5353117165973358259
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_outer_set.png
+  - Handle: 15532363420526510259
+    Type: Texture
+    FilePath: Damaged Helmet\Image_2.jpg
+  - Handle: 8618580068719644621
+    Type: Texture
+    FilePath: Damaged Helmet\Image_3.jpg
+  - Handle: 684132757019806813
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_NRM_2K.png
+  - Handle: 5695137810550483037
+    Type: Texture
+    FilePath: Crate\crate_rougness.png
+  - Handle: 2376714474881603101
+    Type: Texture
+    FilePath: Sword\Ambient_Occlusion_Map_from_Mesh_Material.png
+  - Handle: 17476710730967943597
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_DISP_2K.png
+  - Handle: 10491194469925290526
+    Type: Texture
+    FilePath: Damaged Helmet\Image_4.jpg
+  - Handle: 17735401621527597242
+    Type: Environment Map
+    FilePath: Environment Maps\clarens_midday_4k.hdr
+  - Handle: 6046714457711087843
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\eye_set00_type_3_dx10.png
+  - Handle: 17352266987231952517
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set02_type_8.png
+  - Handle: 776019801390180485
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\led_array_cmp.png
+  - Handle: 16771128133334014085
+    Type: Material
+    FilePath: Cave\M_Cave.dymaterial
+  - Handle: 5401511811455878384
+    Type: Material
+    FilePath: Aloy\Materials\M_Eyelashes.dymaterial
+  - Handle: 1859846179299641535
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybracers\aloyadvancedwarbot_set01_type_1_dx10.png
+  - Handle: 11808278326000821951
+    Type: Texture
+    FilePath: Damaged Helmet\normal.png
+  - Handle: 1304412475227221725
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_a_set01_type_1.png
+  - Handle: 9945107912645583069
+    Type: Texture
+    FilePath: Aloy\Textures\specular_ramp_Fur.png
+  - Handle: 6168763527788386763
+    Type: Texture
+    FilePath: Crate\crate_rougness.png
+  - Handle: 12548718411066835915
+    Type: Material
+    FilePath: Stone Bricks\M_StoneBricks.dymaterial
+  - Handle: 12030729831011782902
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_tilable_set02_type_8_dx10.png
+  - Handle: 2979490730784123068
+    Type: Animation Graph
+    FilePath: Animation\BaseLocomotion.dyanimgraph
+  - Handle: 10271264652252467007
+    Type: Mesh Source
+    FilePath: Cave\cavemerged.fbx
+  - Handle: 14624133791208481742
+    Type: Animation
+    FilePath: Animation\Jump.dyanim
+  - Handle: 18222777563646622981
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\aloyheadcap_set00_type_130_dx10.png
+  - Handle: 8871283775128856802
+    Type: Font
+    FilePath: Fonts\Font Awesome 5 Pro-Solid-900.otf
+  - Handle: 6167165032717131478
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybracers\aloyadvancedwarbot_set03_type_13_dx10.png
+  - Handle: 5130771669190683984
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_02_rough_4k.jpg
+  - Handle: 6212471445581143447
+    Type: Mesh Source
+    FilePath: Animation\Y Bot.fbx
+  - Handle: 2363792077757647466
+    Type: Texture
+    FilePath: Aloy\Textures\buckskin_c_set01_type_1_dx10.png
+  - Handle: 4105851014456602467
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\specular_ramp_dx10.png
+  - Handle: 17202632695412603747
+    Type: Mesh Source
+    FilePath: Animation\Being Electrocuted.fbx
+  - Handle: 13014383707708833365
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\SingleColorTexture_#000000FF_type_6_dx10.png
+  - Handle: 5159833317260899129
+    Type: Texture
+    FilePath: Snow\Textures\Dirty\snow_field_aerial_ao_4k.png
+  - Handle: 8806053383692044601
+    Type: Texture
+    FilePath: Barber Shop Chair\textures\BarberShopChair_01_diff_4k.jpg
+  - Handle: 15656888391623625126
+    Type: Mesh Source
+    FilePath: Cave\cave.fbx
+  - Handle: 10177685647559598359
+    Type: Animation
+    FilePath: Animation\Being Electrocuted.dyanim
+  - Handle: 2679896823486539543
+    Type: Texture
+    FilePath: Aloy\Textures\plastic_scratches_c_set00_type_3_dx10.png
+  - Handle: 14722366372101555543
+    Type: Material
+    FilePath: Materials\MI_Glass.dymateriali
+  - Handle: 776674734317656422
+    Type: Mesh
+    FilePath: Cloth\Cloth.dymesh
+  - Handle: 7212506266849560957
+    Type: Virtual Texture
+    FilePath: Video\Example.dyvirtex
+  - Handle: 17684485550002282522
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\hair_lut_holo_set00_type_1.png
+  - Handle: 1522881643875087386
+    Type: Font
+    FilePath: Fonts\ARIAL.ttf
+  - Handle: 3560404000062701530
+    Type: Texture
+    FilePath: Barber Shop Chair\textures\BarberShopChair_01_roughness_4k.jpg
+  - Handle: 6138767451698138614
+    Type: Mesh Source
+    FilePath: Animation\Idle.fbx
+  - Handle: 5602718689648723446
+    Type: Mesh
+    FilePath: Snow\Snow Box.dymesh
+  - Handle: 5384294409505273336
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\SingleColorTexture_#000000FF_type_8_dx10.png
+  - Handle: 9889761041156113912
+    Type: Texture
+    FilePath: Aloy\Textures\aloy_hair_bead\aloy_hair_bead_set00_type_3_dx10.png
+  - Handle: 14251851741876747270
+    Type: Mesh Source
+    FilePath: Animation\Running_1.fbx
+  - Handle: 16357996102558084749
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\aloy_eyebrows_set01_type_1_dx10.png
+  - Handle: 9864215716680381749
+    Type: Mesh Source
+    FilePath: Sponza\sponza.obj
+  - Handle: 1657387324769543845
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_set01_type_1_dx10.png
+  - Handle: 52261659857970510
+    Type: Scene
+    FilePath: Scenes\Basic Scene.dymatic
+  - Handle: 7600173322784869710
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyhandrefactor_set02_type_13_dx10.png
+  - Handle: 11772239031243600718
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_tilable_set01_type_1_dx10.png
+  - Handle: 9950302074326308873
+    Type: Mesh Source
+    FilePath: Barber Shop Chair\Barber Shop Chair.fbx
+  - Handle: 9925152395737430025
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_set00_type_3_dx10.png
+  - Handle: 14045294571557386481
+    Type: Mesh Source
+    FilePath: Sword\Sword.fbx
+  - Handle: 15112360257782050545
+    Type: Texture
+    FilePath: Textures\Test Icon.png
+  - Handle: 16855935556315456743
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_02_nor_gl_4k.png
+  - Handle: 13627032575524965766
+    Type: Mesh Source
+    FilePath: Dragon\Dragon_8K.obj
+  - Handle: 12847595402553790342
+    Type: Mesh Source
+    FilePath: Snow\Snow Box.fbx
+  - Handle: 15384232559450914948
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_set04_type_133.png
+  - Handle: 17069211541701940123
+    Type: Texture
+    FilePath: Decals\MossDecal.png
+  - Handle: 8966751212751504039
+    Type: Texture
+    FilePath: Sword\Sword_low_Material_Normal.png
+  - Handle: 1766049325897744860
+    Type: Material
+    FilePath: Aloy\Materials\M_Face.dymaterial
+  - Handle: 5457137545368894334
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_set03_type_13_dx10.png
+  - Handle: 6610154471090575230
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_set00_type_3_dx10.png
+  - Handle: 11361278336679204881
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_b_cracked_set00_type_3_dx10.png
+  - Handle: 7714767254506607121
+    Type: Material
+    FilePath: Sword\M_Sword.dymaterial
+  - Handle: 13628832540183495968
+    Type: Texture
+    FilePath: Environment Maps\Test Flow Map.png
+  - Handle: 8452129093571039803
+    Type: Mesh Source
+    FilePath: Stairs\Stairs.fbx
+  - Handle: 8533517698915399634
+    Type: Mesh
+    FilePath: Sword\Sword.dymesh
+  - Handle: 14980159521034248658
+    Type: Texture
+    FilePath: Aloy\Textures\neckscar_healed\SingleColorTexture_#4B4B4BFF_type_6_dx10.png
+  - Handle: 960520862239020809
+    Type: Texture
+    FilePath: Sword\Sword_low_Material_BaseColor.png
+  - Handle: 2356922898045883882
+    Type: Texture
+    FilePath: Snow\Textures\Dirty\snow_field_aerial_nor_gl_4k.png
+  - Handle: 13868756006849710058
+    Type: Animation
+    FilePath: Animation\Standing W_Briefcase Idle.dyanim
+  - Handle: 8796547831925767267
+    Type: Texture
+    FilePath: Aloy\Textures\Perlin_RGB_S_dx10.png
+  - Handle: 9490940052837983050
+    Type: Material
+    FilePath: Snow\MI_Snow Instance.dymateriali
+  - Handle: 1721910022368385218
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_NRM_2K.jpg
+  - Handle: 18155665851498146899
+    Type: Skeleton
+    FilePath: Animation\Mixamo.dyskeleton
+  - Handle: 14107116121363514963
+    Type: Texture
+    FilePath: Canyon\T_Massive_Canyon_Sandstone_Cliff_venuafk_8K_N.tga
+  - Handle: 13437677697689781868
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\aloy_eyelashes_set00_type_3_dx10.png
+  - Handle: 16274955008792516804
+    Type: Mesh Source
+    FilePath: Animation\SingleFrame.fbx
+  - Handle: 10986050270384252844
+    Type: Texture
+    FilePath: Snow\Textures\Swirl.jpg
+  - Handle: 17146616535792301767
+    Type: Texture
+    FilePath: Aloy\Textures\bodyskin_03_set00_type_3_dx10.png
+  - Handle: 1319014424216350298
+    Type: Font
+    FilePath: Fonts\COMICSANS.ttf
+  - Handle: 11205049987283948181
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_b_set00_type_3_dx10.png
+  - Handle: 442338747466150159
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\aloy_hair_base_set00_type_3_dx10.png
+  - Handle: 17592789949314838964
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyheaddress\warbot_aloyheaddress_set01_type_1_dx10.png
+  - Handle: 8352455789350814177
+    Type: Texture
+    FilePath: Aloy\Textures\anisoramp_dx10.png
+  - Handle: 7615602989708506593
+    Type: Animation
+    FilePath: Animation\Falling Idle.dyanim
+  - Handle: 1360674536867986401
+    Type: Texture
+    FilePath: Snow\Textures\Dirty\snow_field_aerial_rough_4k.png
+  - Handle: 3395590268077999191
+    Type: Material
+    FilePath: Snow\M_Snow.dymaterial
+  - Handle: 2632141117248060411
+    Type: Material
+    FilePath: Materials\M_Emmisive.dymaterial
+  - Handle: 11235754193084993546
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyheaddress\warbot_aloyheaddress_set00_type_3_dx10.png
+  - Handle: 4253371521288602122
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_set03_type_13_dx10.png
+  - Handle: 8441053597075909892
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\softfur_set00_type_3_dx10.png
+  - Handle: 4195967053336704314
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_02_translucent_4k.png
+  - Handle: 7744374016189109083
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyheaddress\warbot_aloyheaddress_set03_type_13_dx10.png
+  - Handle: 380276765185660464
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_tilable_set01_type_1_dx10.png
+  - Handle: 4012209811959194427
+    Type: Texture
+    FilePath: Snow\Textures\Dirty\snow_field_aerial_height_4k.png
+  - Handle: 944964805517279005
+    Type: Texture
+    FilePath: Aloy\Textures\aloy_hair_bead\aloy_hair_bead_set01_type_1.png
+  - Handle: 5072140596337631506
+    Type: Mesh Source
+    FilePath: Canyon\SM_Canyon.fbx
+  - Handle: 1636938805060650358
+    Type: Mesh Source
+    FilePath: Animation\T-Pose.fbx
+  - Handle: 16999718362352566134
+    Type: Mesh
+    FilePath: Cave\cavemerged.dymesh
+  - Handle: 9351984844004212597
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\blocktile_msk_dx10.png
+  - Handle: 9758455689432117109
+    Type: Mesh Source
+    FilePath: Animation\Running_2.fbx
+  - Handle: 3820893088343979701
+    Type: Scene
+    FilePath: Scenes\Navigation Test.dymatic
+  - Handle: 17395866310360992437
+    Type: Texture
+    FilePath: Aloy\Textures\shield\AlligatorNoise_01_dx10.png
+  - Handle: 4627143587123144194
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_set01_type_1.png
+  - Handle: 4043416822106257922
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_GLOSS_2K.jpg
+  - Handle: 16094801652804504271
+    Type: Texture
+    FilePath: Aloy\Textures\buckskin_c_set00_type_3_dx10.png
+  - Handle: 13541240626873872417
+    Type: Mesh Source
+    FilePath: Animation\Running.fbx
+  - Handle: 15436465561493344020
+    Type: Mesh
+    FilePath: Barber Shop Chair\Chair.dymesh
+  - Handle: 9203805151724281620
+    Type: Texture
+    FilePath: Aloy\Textures\aloy_hair_bead\aloy_hair_bead_set02_type_8_dx10.png
+  - Handle: 3014731931337868121
+    Type: Animation
+    FilePath: Animation\Idle.dyanim
+  - Handle: 6476500806344417625
+    Type: Mesh Source
+    FilePath: Cloth\Cloth.gltf
+  - Handle: 12559614202854289753
+    Type: Texture
+    FilePath: Aloy\Textures\Grime_NMT_dx10.png
+  - Handle: 13171869038018188282
+    Type: Animation
+    FilePath: Animation\T-Pose.dyanim
+  - Handle: 12249954321910734842
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\SingleColorTexture_#000000FF_type_7_dx10.png
+  - Handle: 12846325756550810288
+    Type: Mesh
+    FilePath: Cave\cave.dymesh
+  - Handle: 15454484110168671714
+    Type: Material
+    FilePath: Materials\M_DepthOffset.dymaterial
+  - Handle: 7072603636937367010
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_tilable_set01_type_1_dx10.png
+  - Handle: 15194745997204444995
+    Type: Texture
+    FilePath: Aloy\Textures\leather_regular_b_cracked_set01_type_129_dx10.png
+  - Handle: 17607680091540872690
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\aloy_eyelashes_set01_type_130.png
+  - Handle: 6204135422442470898
+    Type: Material
+    FilePath: Materials\M_Basic.dymaterial
+  - Handle: 7093048472807842290
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\HologramNoise.png
+  - Handle: 16433550586145921010
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_DISP_2K.jpg
+  - Handle: 10600174613314550770
+    Type: Mesh
+    FilePath: Damaged Helmet\Helmet.dymesh
+  - Handle: 17188160345478603439
+    Type: Animation
+    FilePath: Animation\Rifle Aiming Idle.dyanim
+  - Handle: 3014274965743858353
+    Type: Mesh Source
+    FilePath: Navigation\dungeon.obj
+  - Handle: 3373036168811019441
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_glow_cmp.png
+  - Handle: 10155632191755105866
+    Type: Texture
+    FilePath: Snow\Textures\Normal\snow_01_ao_4k.png
+  - Handle: 9467070647833532360
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_set04.png
+  - Handle: 16751280356538860576
+    Type: Texture
+    FilePath: Aloy\Textures\snow_clumps_01_set00_type_3_dx10.png
+  - Handle: 504765915268250656
+    Type: Texture
+    FilePath: Crate\crate_specular.png
+  - Handle: 9321348897439948320
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\weave_focus_set.png
+  - Handle: 10334632700780313647
+    Type: Texture
+    FilePath: Crate\crate.png
+  - Handle: 17704792275142578735
+    Type: Mesh
+    FilePath: Sponza\sponza.dymesh
+  - Handle: 11740662340946087621
+    Type: Material
+    FilePath: Materials\MI_Displacement.dymateriali
+  - Handle: 6896052654379284165
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\led_array_cmp.png
+  - Handle: 6284885192875162747
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_a_set00_type_3_dx10.png
+  - Handle: 15972390029507437359
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybracers\aloyadvancedwarbot_set00_type_3_dx10.png
+  - Handle: 1082167211171203571
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\specular_ramp_holo.png
+  - Handle: 17987796858189914228
+    Type: Mesh
+    FilePath: Canyon\SM_Canyon.dymesh
+  - Handle: 11846273097891758809
+    Type: Audio
+    FilePath: Audio\Birds Chirping.wav
+  - Handle: 8688885168443900121
+    Type: Mesh
+    FilePath: Animation\Jumping Up.dymesh
+  - Handle: 6606402735322156249
+    Type: Texture
+    FilePath: Aloy\Textures\weave_carbonfibre_set00_type_3_dx10.png
+  - Handle: 16100052602134866873
+    Type: Mesh
+    FilePath: Cave\Cave.dymesh
+  - Handle: 13631621852901016341
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\Aloy_Hair_Base_Set00_TEST_2.png
+  - Handle: 1739097142239519532
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_tilable_set00_type_3_dx10.png
+  - Handle: 1012109964294549814
+    Type: Material
+    FilePath: Materials\M_Landscape.dymaterial
+  - Handle: 24403683664353243
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\offset_01_msk.png
+  - Handle: 6842317388348117459
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_REFL_2K.jpg
+  - Handle: 13618303717941919187
+    Type: Prefab
+    FilePath: Prefabs\Test Prefab.dyprefab
+  - Handle: 2041059754665126795
+    Type: Video Player
+    FilePath: Video\Example Player.dymedplayer
+  - Handle: 10833587785543988126
+    Type: Font
+    FilePath: Fonts\AnandaBlackRegular.ttf
+  - Handle: 13309084420993987163
+    Type: Mesh Source
+    FilePath: Animation\Test.fbx
+  - Handle: 6357898760827335315
+    Type: Prefab
+    FilePath: Prefabs\Character.dyprefab
+  - Handle: 15377844449840203411
+    Type: Mesh Source
+    FilePath: House\abandonhouse.fbx
+  - Handle: 2188732426827630739
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_BUMP_2K.jpg
+  - Handle: 4958366124303813066
+    Type: Mesh Source
+    FilePath: Animation\Running.fbx
+  - Handle: 716246267807772655
+    Type: Mesh
+    FilePath: Animation\Y Bot.dymesh
+  - Handle: 15501872581776146831
+    Type: Scene
+    FilePath: Scenes\Sponza.dymatic
+  - Handle: 7633930703833097497
+    Type: Mesh
+    FilePath: Dragon\Dragon_8K.dymesh
+  - Handle: 3345826267630258633
+    Type: Mesh Source
+    FilePath: Dragon\Dragon_80K.obj
+  - Handle: 7285921664168762409
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_set02_type_8_dx10.png
+  - Handle: 2999931030176864297
+    Type: Mesh
+    FilePath: Cube\Floor.dymesh
+  - Handle: 17742181190862238673
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyflaps\aloyadvancedwarbot_tilable_set03_type_132.png
+  - Handle: 1784218415447578577
+    Type: Texture
+    FilePath: Aloy\Textures\plastic_scratches_b_set01_type_129_dx10.png
+  - Handle: 3233088129899155058
+    Type: Animation
+    FilePath: Animation\Jumping Up.dyanim
+  - Handle: 426170281738843762
+    Type: Mesh
+    FilePath: House\abandonhousemerged.dymesh
+  - Handle: 13698337615671893106
+    Type: Scene
+    FilePath: Scenes\Volumetric Light Test.dymatic
+  - Handle: 14058606896713460772
+    Type: Texture
+    FilePath: Cave\siEoZ_2K_Normal_LOD0.jpg
+  - Handle: 4920537201060941019
+    Type: Texture
+    FilePath: Cave\siEoZ_2K_Albedo.jpg
+  - Handle: 3783216195793789630
+    Type: Texture
+    FilePath: Sword\Sword_low_Material_Roughness.png
+  - Handle: 7648161806515332278
+    Type: Mesh Source
+    FilePath: Animation\Walking.fbx
+  - Handle: 16352054162392774949
+    Type: Animation
+    FilePath: Animation\Walking.dyanim
+  - Handle: 12335233655407681525
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_tilable_set02_type_8_dx10.png
+  - Handle: 14071560243671193372
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\Aloy_Hair_Base_Set00_TEST_1.png
+  - Handle: 4883871994074130716
+    Type: Texture
+    FilePath: Decals\BloodSplatter.png
+  - Handle: 4542490274167148604
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_set00_type_3_dx10.png
+  - Handle: 4738692157264332524
+    Type: Mesh Source
+    FilePath: Animation\R_Walking Left Turn.fbx
+  - Handle: 5392541132125627836
+    Type: Physics Material
+    FilePath: Materials\Example Physics Material.dyphysmat
+  - Handle: 17088699928085311948
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_set02_type_8_dx10.png
+  - Handle: 14400599989578150706
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_COL_2K.jpg
+  - Handle: 7055383444071428565
+    Type: Skeleton
+    FilePath: Morph Targets\Blend Shape Face.dyskeleton
+  - Handle: 14779317861847347546
+    Type: Material
+    FilePath: Materials\M_Color Instance.dymateriali
+  - Handle: 8883279094331137539
+    Type: Texture
+    FilePath: Canyon\T_Massive_Canyon_Sandstone_Cliff_venuafk_8K_D.tga
+  - Handle: 1725476327141029010
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\aloyadvancedwarbot_set00_type_3_dx10.png
+  - Handle: 6222842513032883017
+    Type: Material
+    FilePath: Materials\M_Clear.dymaterial
+  - Handle: 15154405566358246217
+    Type: Texture
+    FilePath: Aloy\Textures\Snow_Sparkle_02_NMT_dx10.png
+  - Handle: 13965509237502747018
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_b_set01_type_1.png
+  - Handle: 14666317145978046191
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybracers\aloyadvancedwarbot_set02_type_8_dx10.png
+  - Handle: 7514340828595128530
+    Type: Material
+    FilePath: Crate\M_Crate.dymaterial
+  - Handle: 14264263271832261551
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\Aloy_Hair_set00_dx10.png
+  - Handle: 1048203403619256744
+    Type: Virtual Texture
+    FilePath: Snow\Snow Capture.dyvirtex
+  - Handle: 969752412425913636
+    Type: Texture
+    FilePath: Snow\Textures\Dirty\snow_field_aerial_col_4k.png
+  - Handle: 10748506803891714852
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_tilable_set02_type_8_dx10.png
+  - Handle: 2509641199007712415
+    Type: Texture
+    FilePath: Aloy\Textures\snow_clumps_01_cracks_set01_type_135_dx10.png
+  - Handle: 8858149778600243352
+    Type: Material
+    FilePath: Aloy\Materials\M_Body.dymaterial
+  - Handle: 15653086201632332218
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_focus\focus_set01_type_1.png
+  - Handle: 1637803436219561607
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_hair\SingleColorTexture_#000000FF_type_4_dx10.png
+  - Handle: 17877432952078629613
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\eyes_teeth_set02_type_136.png
+  - Handle: 1791371661227035902
+    Type: Mesh
+    FilePath: Navigation\dungeon.dymesh
+  - Handle: 15061115601535153306
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_head\hannah_head_set02_type_133.png
+  - Handle: 8283157365416582352
+    Type: Texture
+    FilePath: Aloy\Textures\aloycm_seekermark\seekermark_set05_type_132_dx10.png
+  - Handle: 16372980668984031886
+    Type: Texture
+    FilePath: Aloy\Textures\bodyskin_03_set01_type_129_dx10.png
+  - Handle: 11830352175983304835
+    Type: Texture
+    FilePath: Aloy\Textures\plastic_scratches_b_set00_type_3_dx10.png
+  - Handle: 3027951784885079278
+    Type: Texture
+    FilePath: Aloy\Textures\shield\TriangleTilted_MSK_dx10.png
+  - Handle: 9146322118104193028
+    Type: Texture
+    FilePath: Aloy\Textures\snow_clumps_01_cracks_set00_type_3_dx10.png
+  - Handle: 5913855696803029260
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloybody\softfur_set00_type_3_dx10_TEST.png
+  - Handle: 2388686114292069267
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyheaddress\warbot_aloyheaddress_set02_type_8_dx10.png
+  - Handle: 16106471632834621838
+    Type: Texture
+    FilePath: Aloy\Textures\warbot_aloyquiver\aloyadvancedwarbot_set00_type_3_dx10.png
+  - Handle: 8725104570569056609
+    Type: Texture
+    FilePath: Stone Bricks\StoneBricksSplitface001_AO_2K.jpg
+  - Handle: 403923930200301396
+    Type: Mesh
+    FilePath: Cube\Cube.dymesh
+  - Handle: 2588595652669417039
+    Type: Texture
+    FilePath: Textures\Example Normal.jpg
+  - Handle: 1458756419070291519
+    Type: Scene
+    FilePath: Scenes\Testing Sandbox.dymatic
+  - Handle: 17174288755080674599
+    Type: Scene
+    FilePath: Scenes\Cave Lighting.dymatic

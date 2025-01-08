@@ -1,0 +1,280 @@
+Material:
+  Usage: Post Processing
+  AlphaBlendMode: Opaque
+  CastShadows: true
+  TwoSided: false
+  Lit: true
+  Tessellation: false
+  Tessellation Spacing: Equal
+  Graph:
+    Nodes:
+      - Node: 5317622037486822948
+        Type: Result
+        Position: [296, -36]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 1507708842622394309
+            Name: Albedo
+            Type: Vector3
+          - Pin: 1110422032916962724
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 7056688750988108756
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 13168529561236855141
+            Name: Roughness
+            Type: Float
+            Data: 0.5
+          - Pin: 17730813770359002697
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 1967577840483500986
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 14777055462889004907
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 8379888936774014538
+            Name: Alpha
+            Type: Float
+            Data: 1
+          - Pin: 8460639890648085351
+            Name: IOR
+            Type: Float
+            Data: 1.25
+          - Pin: 14041435657326894752
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 2627371356857573493
+            Name: Tessellation Multiplier
+            Type: Float
+            Data: 1
+          - Pin: 17604823182876604020
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+          - Pin: 12784872412667207933
+            Name: Particle Size
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          []
+      - Node: 8625327310885771082
+        Type: Scene Color
+        Position: [-621, -100]
+        Inputs:
+          - Pin: 14094537578950374574
+            Name: UVs
+            Type: Vector2
+        Outputs:
+          - Pin: 5965809407868482486
+            Type: Vector4
+      - Node: 9579559709441782177
+        Type: Mask
+        Position: [-432, 12]
+        Inputs:
+          - Pin: 4607084778809614200
+            Type: Float Family
+          - Pin: 3480741912251668158
+            Name: R
+            Type: Bool
+            Data: false
+          - Pin: 3216801677098269683
+            Name: G
+            Type: Bool
+            Data: true
+          - Pin: 13766454023473711553
+            Name: B
+            Type: Bool
+            Data: false
+          - Pin: 15641172388202900535
+            Name: A
+            Type: Bool
+            Data: false
+        Outputs:
+          - Pin: 8467564957083336203
+            Type: Float Family
+      - Node: 1054385930408552016
+        Type: Scene Color
+        Position: [-616, 12]
+        Inputs:
+          - Pin: 4868774175623416234
+            Name: UVs
+            Type: Vector2
+        Outputs:
+          - Pin: 16720119871336119169
+            Type: Vector4
+      - Node: 13114458553359528840
+        Type: Construct Vector 3
+        Position: [-162, -48]
+        Inputs:
+          - Pin: 10365158434842774718
+            Name: X
+            Type: Float
+          - Pin: 7543495163042597599
+            Name: Y
+            Type: Float
+          - Pin: 5851838979578415679
+            Name: Z
+            Type: Float
+        Outputs:
+          - Pin: 3497464146925546334
+            Type: Vector3
+      - Node: 14077376103157910307
+        Type: Scene Color
+        Position: [-610, 127]
+        Inputs:
+          - Pin: 10076348380709262620
+            Name: UVs
+            Type: Vector2
+        Outputs:
+          - Pin: 11556682604920543830
+            Type: Vector4
+      - Node: 194602868431870590
+        Type: Mask
+        Position: [-440, -100]
+        Inputs:
+          - Pin: 8300007839523696451
+            Type: Float Family
+          - Pin: 15549936465429618385
+            Name: R
+            Type: Bool
+            Data: true
+          - Pin: 11310696560664416456
+            Name: G
+            Type: Bool
+            Data: false
+          - Pin: 17841697371094877731
+            Name: B
+            Type: Bool
+            Data: false
+          - Pin: 6560075699685371837
+            Name: A
+            Type: Bool
+            Data: false
+        Outputs:
+          - Pin: 4702907878510125632
+            Type: Float Family
+      - Node: 18138662819482487314
+        Type: Mask
+        Position: [-432, 124]
+        Inputs:
+          - Pin: 834678129948104121
+            Type: Float Family
+          - Pin: 17082675167553624011
+            Name: R
+            Type: Bool
+            Data: false
+          - Pin: 2879885002957822069
+            Name: G
+            Type: Bool
+            Data: false
+          - Pin: 15272291681429161626
+            Name: B
+            Type: Bool
+            Data: true
+          - Pin: 12446624688155953165
+            Name: A
+            Type: Bool
+            Data: false
+        Outputs:
+          - Pin: 7922789039645009945
+            Type: Float Family
+      - Node: 16482488347250356283
+        Type: Pixel Position
+        Position: [-1046, -20]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 5381258785203969827
+            Type: Vector2
+      - Node: 17757456608902748332
+        Type: Add
+        Position: [-824, -112]
+        Inputs:
+          - Pin: 3353094779250637738
+            Name: A
+            Type: Float Family
+          - Pin: 14183444906655204753
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 2709557556970727554
+            Type: Float Family
+      - Node: 14429468521704337330
+        Type: Subtract
+        Position: [-792, 128]
+        Inputs:
+          - Pin: 1532506153516163696
+            Name: A
+            Type: Float Family
+          - Pin: 17258509728474970969
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 8987036277452628432
+            Type: Float Family
+      - Node: 2675678854830531382
+        Type: Parameter
+        Position: [-1339, 28]
+        Name: Aberration Amount
+        Inputs:
+          - Pin: 3654499246893982484
+            Name: Default
+            Type: Float
+            Data: 0.00999999978
+        Outputs:
+          - Pin: 10937930077660576679
+            Type: Float
+    Links:
+      - Link: 16368280269356651413
+        Start: 3497464146925546334
+        End: 1507708842622394309
+      - Link: 15891665950929830266
+        Start: 5965809407868482486
+        End: 8300007839523696451
+      - Link: 6438413644586704918
+        Start: 4702907878510125632
+        End: 10365158434842774718
+      - Link: 15174385575722791003
+        Start: 16720119871336119169
+        End: 4607084778809614200
+      - Link: 8219342347495136096
+        Start: 7922789039645009945
+        End: 5851838979578415679
+      - Link: 16171818026353318271
+        Start: 11556682604920543830
+        End: 834678129948104121
+      - Link: 12716655975866023438
+        Start: 8467564957083336203
+        End: 7543495163042597599
+      - Link: 7793993704966845313
+        Start: 5381258785203969827
+        End: 4868774175623416234
+      - Link: 5108644811416748879
+        Start: 5381258785203969827
+        End: 14183444906655204753
+      - Link: 540634774729416226
+        Start: 2709557556970727554
+        End: 14094537578950374574
+      - Link: 5876325163001150607
+        Start: 5381258785203969827
+        End: 1532506153516163696
+      - Link: 5875629799220616942
+        Start: 8987036277452628432
+        End: 10076348380709262620
+      - Link: 7292437368265108120
+        Start: 10937930077660576679
+        End: 3353094779250637738
+      - Link: 11685533437571294526
+        Start: 10937930077660576679
+        End: 17258509728474970969

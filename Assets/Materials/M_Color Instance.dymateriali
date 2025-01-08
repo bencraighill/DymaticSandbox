@@ -1,0 +1,6 @@
+Material:
+  Parent: 1238060353119537151
+  ParameterOverrides:
+    - Name: Color
+      Type: Vector3
+      Value: [1, 0, 0]

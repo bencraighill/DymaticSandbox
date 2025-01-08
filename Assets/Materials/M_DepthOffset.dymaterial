@@ -1,0 +1,163 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Opaque
+  Graph:
+    Nodes:
+      - Node: 11694976456176986224
+        Type: Result
+        Position: [376, 68]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 8919241642987651074
+            Name: Albedo
+            Type: Vector3
+            Data: [1, 1, 1]
+          - Pin: 18050485846485487605
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 637030099022271512
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 14156024052016142948
+            Name: Roughness
+            Type: Float
+            Data: 0.5
+          - Pin: 975401802248037477
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 2024329459862803101
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 15203929792899290627
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 2543539752366407464
+            Name: Alpha
+            Type: Float
+            Data: 1
+          - Pin: 2117760608047101559
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 14411413395079269436
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+        Outputs:
+          []
+      - Node: 16486487364421308365
+        Type: Multiply
+        Position: [202, 306]
+        Inputs:
+          - Pin: 5367638215795509568
+            Name: A
+            Type: Float Family
+            Data: 0
+          - Pin: 9479770902803571746
+            Name: B
+            Type: Float Family
+            Data: 0
+        Outputs:
+          - Pin: 2899173047946091757
+            Name: ""
+            Type: Float Family
+            Data: 0
+      - Node: 13016711967286647461
+        Type: Constant
+        Position: [37, 396]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 11064614764008120259
+            Name: ""
+            Type: Float
+            Data: 0.100000001
+      - Node: 18301178191939951600
+        Type: Pixel Position
+        Position: [-310, -36]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 11735090969674207861
+            Name: ""
+            Type: Vector2
+            Data: [0, 0]
+      - Node: 1536394464869406470
+        Type: Custom Expression
+        Position: [8, 188]
+        Name: Random
+        Inputs:
+          - Pin: 13530108741462637814
+            Name: Include Paths
+            Type: String Multiline
+            Data: "#include Include/Random.glslh"
+          - Pin: 6033999440634708800
+            Name: Additional Defines
+            Type: String Multiline
+            Data: ""
+          - Pin: 9526673261962250775
+            Name: Shader Expression
+            Type: String Multiline
+            Data: "//Value = fract(sin(dot(Coords, vec2(12.9898, 78.233))) * 43758.5453);\nValue = InterleavedGradientNoise(Coords, u_Frame);"
+          - Pin: 15006591153465458355
+            Name: Coords
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          - Pin: 2654612893965995950
+            Name: Value
+            Type: Float
+            Data: 0
+      - Node: 2500322287850066620
+        Type: Multiply
+        Position: [-127, 98]
+        Inputs:
+          - Pin: 18254448874537403212
+            Name: A
+            Type: Float Family
+            Data: 0
+          - Pin: 8131339896201147502
+            Name: B
+            Type: Float Family
+            Data: 0
+        Outputs:
+          - Pin: 465243511441995548
+            Name: ""
+            Type: Float Family
+            Data: 0
+      - Node: 8423128082497843531
+        Type: Time
+        Position: [-256, 217]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 10932624354475186784
+            Name: ""
+            Type: Float
+            Data: 0
+    Links:
+      - Link: 10253151753009349941
+        Start: 465243511441995548
+        End: 15006591153465458355
+      - Link: 1321714159233046506
+        Start: 11735090969674207861
+        End: 18254448874537403212
+      - Link: 1862634622919571225
+        Start: 2654612893965995950
+        End: 5367638215795509568
+      - Link: 4419711316344733524
+        Start: 11064614764008120259
+        End: 9479770902803571746
+      - Link: 8350185482070774033
+        Start: 10932624354475186784
+        End: 8131339896201147502
+      - Link: 17064788534375513665
+        Start: 2899173047946091757
+        End: 14411413395079269436

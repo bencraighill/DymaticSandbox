@@ -1,0 +1,29 @@
+Prefab: 10446105777412683068
+Entities:
+  - Entity: 12847833565983340353
+    TagComponent:
+      Tag: Ball
+    Parent: 0
+    Children:
+      []
+    PrefabComponent:
+      Prefab: 10446105777412683068
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 2632141117248060411
+    RigidbodyComponent:
+      BodyType: Dynamic
+      Layer: 12401218069367100555
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.649999976
+    SphereColliderComponent:
+      Radius: 1

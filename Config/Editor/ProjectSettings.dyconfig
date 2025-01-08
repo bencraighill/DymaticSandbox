@@ -1,0 +1,7 @@
+ProjectSettings:
+  ColoredFolders:
+    - Path: Prefabs
+      Color: [0.195979938, 0.397153974, 0.725738406]
+    - Path: Animation
+      Color: [0.974683523, 0.890089154, 0.460609913]
+  Physics Logging: false

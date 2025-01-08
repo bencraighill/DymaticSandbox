@@ -1,0 +1,45 @@
+Scene: Untitled
+Settings:
+  Gravity: [0, -9.81000042, 0]
+Entities:
+  - Entity: 13996868692945477637
+    TagComponent:
+      Tag: Dungeon
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-5.19862556, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 1791371661227035902
+      Materials:
+        - 14779317861847347546
+  - Entity: 17808907650711843836
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [82.0341644, 40.5346718, -55.2714195]
+      Rotation: [164.73645, 76.5924835, -179.999954]
+      Scale: [1.00000036, 0.99999994, 1.00000083]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.942477763
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 2
+        DOFStrength: 0
+        DOFTarget: 0
+        DOFFocusRange: 1
+        DOFFocusFalloff: 0

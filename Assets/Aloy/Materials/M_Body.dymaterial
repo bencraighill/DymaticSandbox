@@ -1,0 +1,132 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Opaque
+  CastShadows: true
+  TwoSided: false
+  Lit: true
+  Graph:
+    Nodes:
+      - Node: 15926745209364515307
+        Type: Result
+        Position: [136, 100]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3440229515080142710
+            Name: Albedo
+            Type: Vector3
+          - Pin: 18016496728713387714
+            Name: Normal
+            Type: Vector3
+          - Pin: 18206120231763824549
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 15408802492638966795
+            Name: Roughness
+            Type: Float
+            Data: 0.800000012
+          - Pin: 9938278469112602817
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 5914565223994012930
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 3069227984057055241
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 13003212495739000631
+            Name: Alpha
+            Type: Float
+            Data: 1
+          - Pin: 15024211492050985576
+            Name: IOR
+            Type: Float
+            Data: 1.25
+          - Pin: 11437752447318039491
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 8718564340615579404
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+          - Pin: 12784918485272664227
+            Name: Particle Size
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          []
+      - Node: 2378855786004368818
+        Type: Texture Sample
+        Position: [-88, -36]
+        Inputs:
+          - Pin: 3651000084379260735
+            Name: UVs
+            Type: Vector2
+            Data: [0, 0]
+          - Pin: 16838635113611861743
+            Name: Tex
+            Type: Texture
+            Data: 1657387324769543845
+        Outputs:
+          - Pin: 8299242428624012595
+            Name: RGB
+            Type: Vector3
+          - Pin: 16977837358435166872
+            Name: R
+            Type: Float
+          - Pin: 11652176265922416956
+            Name: G
+            Type: Float
+          - Pin: 12411031555918420427
+            Name: B
+            Type: Float
+          - Pin: 2568857840550500678
+            Name: A
+            Type: Float
+          - Pin: 3788094422593216983
+            Name: RGBA
+            Type: Vector4
+      - Node: 16022994315313256434
+        Type: Texture Sample
+        Position: [-107, 218]
+        Inputs:
+          - Pin: 15122005583813070116
+            Name: UVs
+            Type: Vector2
+            Data: [0, 0]
+          - Pin: 5134751303778584148
+            Name: Tex
+            Type: Texture
+            Data: 1993854937835738128
+        Outputs:
+          - Pin: 12557502630905792499
+            Name: RGB
+            Type: Vector3
+          - Pin: 6640350847029384680
+            Name: R
+            Type: Float
+          - Pin: 4141743588799034352
+            Name: G
+            Type: Float
+          - Pin: 14312902203267112821
+            Name: B
+            Type: Float
+          - Pin: 12443576959894382934
+            Name: A
+            Type: Float
+          - Pin: 2632072819489953979
+            Name: RGBA
+            Type: Vector4
+    Links:
+      - Link: 16762896063022697065
+        Start: 8299242428624012595
+        End: 3440229515080142710
+      - Link: 4340706493360753750
+        Start: 12557502630905792499
+        End: 18016496728713387714

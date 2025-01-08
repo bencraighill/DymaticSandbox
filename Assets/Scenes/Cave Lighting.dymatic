@@ -1,0 +1,353 @@
+Scene: Untitled
+Settings:
+  Gravity: [0, -9.81000042, 0]
+Entities:
+  - Entity: 6886787959378321705
+    TagComponent:
+      Tag: Spline
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-3.21869302, 2.62926221, 0.698255658]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SplineComponent:
+      Points:
+        - Position: [0, 0, 0]
+          Tangent: [5, 0, -5]
+          Type: Curve
+        - Position: [2.70000005, 0, 0]
+          Tangent: [5, 0, 5]
+          Type: Curve
+        - Position: [2.79999995, 0, 2.9000001]
+          Tangent: [-3.20000005, 0, 5]
+          Type: Curve
+        - Position: [-0.5, 0, 2.9000001]
+          Tangent: [-1.10000002, 0, -0.800000012]
+          Type: Curve
+  - Entity: 1560518024086145118
+    TagComponent:
+      Tag: Dragon_80K
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-5.2679987, 0.82483542, -1.56574225]
+      Rotation: [0, -43.9926109, 0]
+      Scale: [0.0499999896, 0.0500000007, 0.0500000045]
+    StaticMeshComponent:
+      Mesh: 15587546319447804062
+      Materials:
+        - 14779317861847347546
+  - Entity: 15934106571480712445
+    TagComponent:
+      Tag: Camera
+    Parent: 18308248107977904034
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, -2.38418579e-07]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 1.5
+        DOFStrength: 10
+        DOFTarget: 3.20000005
+        DOFFocusRange: 4
+        DOFFocusFalloff: 20
+  - Entity: 18308248107977904034
+    TagComponent:
+      Tag: Spring Arm
+    Parent: 706728756675380760
+    Children:
+      - Handle: 15934106571480712445
+    TransformComponent:
+      Translation: [0, 1.29999995, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SpringArmComponent:
+      TargetLength: 3
+      ProbeRadius: 0.119999997
+      TargetOffset: [0, 0, 0]
+      SocketOffset: [0, 0, 0]
+  - Entity: 10482923567431701554
+    TagComponent:
+      Tag: Foot
+    Parent: 9183050340449733411
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:LeftFoot
+    TransformComponent:
+      Translation: [-0.000896453857, 10.5881243, -1.28133774]
+      Rotation: [22.823307, 0.00139333354, 0.00137346471]
+      Scale: [8.84128571, 17.7662926, 1.00000203]
+    StaticMeshComponent:
+      {}
+  - Entity: 4340149692131492884
+    TagComponent:
+      Tag: Foot
+    Parent: 9183050340449733411
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:RightFoot
+    TransformComponent:
+      Translation: [-0.00109386444, 10.5877352, -1.28145027]
+      Rotation: [22.8231716, 0.00137736427, 0.00140943355]
+      Scale: [8.84691048, 18.0473213, 1.00000095]
+    StaticMeshComponent:
+      {}
+  - Entity: 13459602399936473431
+    TagComponent:
+      Tag: Gun Model
+    Parent: 7109826036372953194
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.3369751, 32.2199097, 5.4019165]
+      Rotation: [0.58594048, 2.09830475, -11.5439005]
+      Scale: [4.17005348, 36.165287, 4.17007399]
+    StaticMeshComponent:
+      {}
+  - Entity: 7109826036372953194
+    TagComponent:
+      Tag: Gun
+    Parent: 9183050340449733411
+    Children:
+      - Handle: 13459602399936473431
+    AttachmentComponent:
+      Bone Name: mixamorig:RightHand
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 9183050340449733411
+    TagComponent:
+      Tag: Mesh
+    Parent: 706728756675380760
+    Children:
+      - Handle: 7109826036372953194
+      - Handle: 4340149692131492884
+      - Handle: 10482923567431701554
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 716246267807772655
+      Animation Graph: 2979490730784123068
+      Materials:
+        - 0
+        - 0
+  - Entity: 706728756675380760
+    TagComponent:
+      Tag: Character
+    Parent: 0
+    Children:
+      - Handle: 9183050340449733411
+      - Handle: 18308248107977904034
+    PrefabComponent:
+      Prefab: 6357898760827335315
+    TransformComponent:
+      Translation: [-3.76772404, 0.0664389133, 1.17198491]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassName: Sandbox.Character
+      ScriptFields:
+        []
+  - Entity: 8560392154178919886
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-11.254405, 0.87630713, 9.68441391]
+      Rotation: [0, -27.6485443, 0]
+      Scale: [13.8642225, 9, 1.07474434]
+    StaticMeshComponent:
+      {}
+  - Entity: 18404655561455550879
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-12.1990986, 1.9058131, -10.5132751]
+      Rotation: [180, -39.0801315, 180]
+      Scale: [10.0000019, 9, 1]
+    StaticMeshComponent:
+      {}
+  - Entity: 7567986983167834523
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, -1.17742872, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 1
+      Radius: 1
+      Casts Shadows: true
+  - Entity: 3223923991694202980
+    TagComponent:
+      Tag: Directional Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-3.91912222, -1.90999997, 0]
+      Rotation: [-2.40000129, -0.699990988, -54.9000015]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassName: Sandbox.LightRotator
+      ScriptFields:
+        []
+    DirectionalLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 16
+  - Entity: 2073218873485380306
+    TagComponent:
+      Tag: Cave
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-4.0891614, -0.395010769, 0.630624831]
+      Rotation: [0, -0, 0]
+      Scale: [2, 2, 2]
+    StaticMeshComponent:
+      Mesh: 16100052602134866873
+      Materials:
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+        - 16771128133334014085
+    RigidbodyComponent:
+      BodyType: Static
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    MeshColliderComponent:
+      MeshType: Triangle
+  - Entity: 7168221638382871285
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-3.21868992, 2.62926006, 0.698256016]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [0.472573817, 0.566041827, 1]
+      Intensity: 6
+      Radius: 18
+      Casts Shadows: true
+    RigidbodyComponent:
+      BodyType: Dynamic
+      Sensor: false
+      Mode: Density
+      Density: 1
+      Material Properties:
+        Friction: 0.200000003
+        Restitution: 0.100000001
+    SphereColliderComponent:
+      Radius: 0.00999999978
+    FollowConstraintComponent:
+      Target: 6886787959378321705
+      Enabled: true
+      Looping: true
+      Normal: [0, 1, 0]
+      Start Fraction: 0
+      Max Friction Force: 0
+      Rotation Constraint: Constrained
+  - Entity: 6500883407606449245
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-0.121331096, 0.295419157, 4.02082157]
+      Rotation: [8.52562618, 46.0658379, 1.53815051e-06]
+      Scale: [1, 1, 0.99999994]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: false
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 2
+        DOFStrength: 12
+        DOFTarget: 7.19999981
+        DOFFocusRange: 3
+        DOFFocusFalloff: 6
+  - Entity: 12911049955196051086
+    TagComponent:
+      Tag: Volume
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [20, 20, 20]
+    VolumeComponent:
+      Blend: Set
+      Color: [1, 1, 1]
+      Extinction Scale: 0.5
+      Scattering Distribution: 0.5
+      Scattering Intensity: 0.00999999978
+  - Entity: 15869922165198431722
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-117.879997, 1.29432011, 6.00164986]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [0.472573817, 0.566041827, 1]
+      Intensity: 6
+      Radius: 5
+      Casts Shadows: true

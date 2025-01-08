@@ -1,0 +1,310 @@
+Scene: Untitled
+Settings:
+  Gravity: [0, -9.81000042, 0]
+Entities:
+  - Entity: 10201666309424913440
+    TagComponent:
+      Tag: Post Process Volume
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 15752403091901594828
+    TagComponent:
+      Tag: Crate
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0.290920734, -1.32506514]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 716246267807772655
+      Materials:
+        - 0
+        - 0
+  - Entity: 17641102338039795626
+    TagComponent:
+      Tag: Sphere
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-3.36447644, 0.950147271, 1.94646931]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    StaticMeshComponent:
+      Mesh: 15430056930843234402
+      Materials:
+        - 0
+  - Entity: 8522976708123763479
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 2370728654043728086
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 12785037572505033599
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 7785379701377817932
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 2889897624251674580
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 6850006623429832001
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 3239467065170079095
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 15233843168238588469
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 7322855712123157941
+    TagComponent:
+      Tag: Static Mesh
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, -3.89036984e-07]
+      Scale: [0.999999642, 1, 0.999999642]
+    StaticMeshComponent:
+      {}
+  - Entity: 8133636990997607807
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3217516770891492408
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 9446463678157773747
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 11002337963109329721
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 17373248969541211148
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 16190726982421346868
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 6166330374189789887
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [3.80193329, 1.08413839, 1.79084063]
+      Rotation: [0, -0, 0]
+      Scale: [0.769999981, 0.769999981, 0.769999981]
+    StaticMeshComponent:
+      Mesh: 403923930200301396
+      Materials:
+        - 0
+  - Entity: 7104007536705580429
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 13987526828980801443
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 11023006961748915951
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 3836428308891655845
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 9415834760985882998
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 12144002842556407366
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 3021103045800212609
+    TagComponent:
+      Tag: Empty Entity
+    Parent: 17017508436447423058
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.1569953, 0, 4.95621967]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    BoxColliderComponent:
+      Size: [1, 1, 1]
+  - Entity: 17854667294506486343
+    TagComponent:
+      Tag: Point Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-0.0551360995, 4.00170326, 0.589843392]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    PointLightComponent:
+      Color: [1, 1, 1]
+      Intensity: 20
+      Radius: 20
+      Casts Shadows: true
+  - Entity: 1866969687825592299
+    TagComponent:
+      Tag: Sky Light
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SkyLightComponent:
+      Type: Environment Map
+      Environment Map: 5385743525923386553
+      Flow Map: 13628832540183495968
+      Intensity: 0.200000003
+  - Entity: 1926081087526067408
+    TagComponent:
+      Tag: Post Process Volume
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 17713244658020091368
+    TagComponent:
+      Tag: Post Process Volume
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 7627389631206728952
+    TagComponent:
+      Tag: Text
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [-0.0172137916, 0.303152323, 0.781068325]
+      Rotation: [-89.9999847, 0, 0]
+      Scale: [0.639999986, 0.639999986, 0.639988005]
+    TextComponent:
+      TextString: Dymatic Engine
+      Alignment: Center
+      Color: [1, 1, 1, 1]
+      Font: 1522881643875087386
+      Kerning: 0
+      LineSpacing: 0
+      MaxWidth: 0
+  - Entity: 11823790753374556666
+    TagComponent:
+      Tag: Cube
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0.0933294296, 0]
+      Rotation: [0, -0, 0]
+      Scale: [5, 0.200000003, 5]
+    StaticMeshComponent:
+      Mesh: 403923930200301396
+      Materials:
+        - 0
+  - Entity: 8249379047341084583
+    TagComponent:
+      Tag: Camera
+    Parent: 0
+    Children:
+      []
+    TransformComponent:
+      Translation: [0.240543947, 5.51964712, 10.6625624]
+      Rotation: [-23.3766975, 0.275045365, 3.33509198e-09]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 2
+        DOFStrength: 0
+        DOFTarget: 0
+        DOFFocusRange: 1
+        DOFFocusFalloff: 0

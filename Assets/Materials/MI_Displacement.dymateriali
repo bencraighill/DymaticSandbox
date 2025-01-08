@@ -1,0 +1,15 @@
+Material:
+  Parent: 14110821780071171440
+  ParameterOverrides:
+    - Name: Vec2
+      Type: Vector2
+      Value: [1.10000002, 0]
+    - Name: New Parameter
+      Type: Vector3
+      Value: [0, 0, 0]
+    - Name: Switch
+      Type: Bool
+      Value: true
+  TextureOverrides:
+    - ID: 6287378007047898206
+      Texture: 10866303217383029057

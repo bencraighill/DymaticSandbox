@@ -1,0 +1,335 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Translucent
+  CastShadows: true
+  TwoSided: false
+  Lit: true
+  Tessellation: false
+  Tessellation Spacing: Equal
+  Graph:
+    Nodes:
+      - Node: 10188907456524293704
+        Type: Constant
+        Position: [169, 700]
+        Inputs:
+          - Pin: 3274890213451524471
+            Name: Default
+            Type: Float
+            Data: 0
+        Outputs:
+          - Pin: 6433832006122504759
+            Type: Vector3
+      - Node: 205626090433894210
+        Type: Result
+        Position: [344, 160]
+        Comment: Test
+        Comment Color: [1, 0.227848113, 0.227848113]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 4166958511480807243
+            Name: Albedo
+            Type: Vector3
+          - Pin: 3433838775611914260
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 15245457320362992554
+            Name: Emissive
+            Type: Vector3
+          - Pin: 15223642084220925569
+            Name: Roughness
+            Type: Float
+          - Pin: 16412255917496098978
+            Name: Metallic
+            Type: Float
+            Data: 0
+          - Pin: 4127890974620622008
+            Name: Specular
+            Type: Float
+          - Pin: 16999450579863309608
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 11467372044164157163
+            Name: Alpha
+            Type: Float
+            Data: 0.5
+          - Pin: 16002458958647262275
+            Name: IOR
+            Type: Float
+          - Pin: 4967429933270928649
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 11615592762109769353
+            Name: Tessellation Multiplier
+            Type: Float
+            Data: 1
+          - Pin: 524655317200339476
+            Name: Depth Offset
+            Type: Float
+            Data: 0
+          - Pin: 7859755064721390283
+            Name: Particle Size
+            Type: Vector2
+            Data: [0, 0]
+        Outputs:
+          []
+      - Node: 8881171195431104972
+        Type: Pixel Position
+        Position: [-166, -52]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16156111155174142173
+            Type: Vector2
+      - Node: 9506783156419359182
+        Type: Abs
+        Position: [-385, 100]
+        Inputs:
+          - Pin: 17479129627858738505
+            Type: Float Family
+        Outputs:
+          - Pin: 12733362649236253310
+            Type: Float Family
+      - Node: 1528170342606763832
+        Type: Texture Sample
+        Position: [-1048, 252]
+        Inputs:
+          - Pin: 14454680520749648628
+            Name: UVs
+            Type: Vector2
+            Data: [0, 0]
+          - Pin: 12493148635172861672
+            Name: Tex
+            Type: Texture
+            Data: 2588595652669417039
+        Outputs:
+          - Pin: 15469736472789417225
+            Name: RGB
+            Type: Vector3
+          - Pin: 5082049016909468040
+            Name: R
+            Type: Float
+          - Pin: 18407656011714609098
+            Name: G
+            Type: Float
+          - Pin: 13987941495785710447
+            Name: B
+            Type: Float
+          - Pin: 2356506901990273351
+            Name: A
+            Type: Float
+          - Pin: 8376260991329618437
+            Name: RGBA
+            Type: Vector4
+      - Node: 2295756574846954598
+        Type: Time
+        Position: [-792, 268]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 5771958222826135948
+            Type: Float
+      - Node: 18101357009214024264
+        Type: Multiply
+        Position: [-185, 60]
+        Inputs:
+          - Pin: 15208423099316313417
+            Name: A
+            Type: Float Family
+          - Pin: 1234618848051577296
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 4979777038291191367
+            Type: Float Family
+      - Node: 15623512514793214061
+        Type: Sine
+        Position: [-564, 100]
+        Inputs:
+          - Pin: 5739453504598768360
+            Type: Float Family
+        Outputs:
+          - Pin: 12928613897545348916
+            Type: Float Family
+      - Node: 5634992030863412081
+        Type: Multiply
+        Position: [-502, 512]
+        Inputs:
+          - Pin: 10206028557202800039
+            Name: A
+            Type: Float Family
+            Data: 0
+          - Pin: 10849670090847962094
+            Name: B
+            Type: Float Family
+            Data: 0
+        Outputs:
+          - Pin: 1229332235629990338
+            Type: Float Family
+      - Node: 790012638601693053
+        Type: Multiply
+        Position: [-215, 512]
+        Inputs:
+          - Pin: 3776703493491727020
+            Name: A
+            Type: Float Family
+          - Pin: 9393628640294385216
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 14485089168196115698
+            Type: Float Family
+      - Node: 17727443206341836073
+        Type: Comment
+        Position: [-1088, 12]
+        Size: [1911, 1406]
+        Comment: My Material
+        Comment Color: [1, 1, 1]
+        Inputs:
+          []
+        Outputs:
+          []
+      - Node: 6592709930927742389
+        Type: Constant
+        Position: [-369, 624]
+        Inputs:
+          - Pin: 4043875910514273402
+            Name: Default
+            Type: Float
+            Data: 0
+        Outputs:
+          - Pin: 15529567625369367206
+            Type: Float
+      - Node: 11849135981896070400
+        Type: Custom Expression
+        Position: [-82, 204]
+        Name: Custom Expression
+        Inputs:
+          - Pin: 7515713879080893280
+            Name: Include Paths
+            Type: String Multiline
+            Data: // Hiya
+          - Pin: 8723030651597253219
+            Name: Additional Defines
+            Type: String Multiline
+            Data: // How are u
+          - Pin: 2634716454308120883
+            Name: Shader Expression
+            Type: String Multiline
+            Data: Output0 = 0.1;
+          - Pin: 6149474042122587135
+            Name: Input3
+            Type: Float
+          - Pin: 12217426131861837237
+            Name: Input4
+            Type: Float
+            Data: 0
+          - Pin: 16503252560412229619
+            Name: Input5
+            Type: Float
+        Outputs:
+          - Pin: 5362947579862563107
+            Name: Output0
+            Type: Float
+      - Node: 3365349560149680367
+        Type: Comment
+        Position: [-768, 416]
+        Size: [994, 1002]
+        Comment: Emmisive
+        Comment Color: [0.459915638, 0.788068175, 1]
+        Inputs:
+          []
+        Outputs:
+          []
+      - Node: 3636937832943379379
+        Type: Multiply
+        Position: [168, 464]
+        Inputs:
+          - Pin: 16670495047559321152
+            Name: A
+            Type: Float Family
+          - Pin: 9755703095635576164
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 9523887693730917847
+            Type: Float Family
+      - Node: 4548359492632414058
+        Type: Multiply
+        Position: [39, 60]
+        Inputs:
+          - Pin: 6488414162673750738
+            Name: A
+            Type: Float Family
+          - Pin: 3687722288698934530
+            Name: B
+            Type: Float Family
+        Outputs:
+          - Pin: 6613802545436564526
+            Type: Float Family
+      - Node: 337021451889904716
+        Type: Parameter
+        Position: [359, 588]
+        Name: IOR
+        Inputs:
+          - Pin: 7366929306992478669
+            Name: Default
+            Type: Float
+            Data: 1.25
+        Outputs:
+          - Pin: 11152083586795877575
+            Type: Float
+    Links:
+      - Link: 17627606706026790813
+        Start: 1229332235629990338
+        End: 3776703493491727020
+      - Link: 6320706311903850814
+        Start: 15469736472789417225
+        End: 15208423099316313417
+      - Link: 14774570383705559334
+        Start: 5771958222826135948
+        End: 5739453504598768360
+      - Link: 11311422095109377575
+        Start: 15529567625369367206
+        End: 9393628640294385216
+      - Link: 11312705959536700296
+        Start: 12928613897545348916
+        End: 17479129627858738505
+      - Link: 7763477485486314276
+        Start: 14485089168196115698
+        End: 15245457320362992554
+      - Link: 15721539870538387135
+        Start: 12733362649236253310
+        End: 1234618848051577296
+      - Link: 6844561058516485051
+        Start: 14485089168196115698
+        End: 6149474042122587135
+      - Link: 3057898690169878015
+        Start: 5362947579862563107
+        End: 15223642084220925569
+      - Link: 2733928766952058892
+        Start: 5771958222826135948
+        End: 16503252560412229619
+      - Link: 13401195780382204501
+        Start: 18407656011714609098
+        End: 4127890974620622008
+      - Link: 13882089300554244960
+        Start: 6433832006122504759
+        End: 9755703095635576164
+      - Link: 5459973589415831896
+        Start: 12928613897545348916
+        End: 16670495047559321152
+      - Link: 1004751582560491480
+        Start: 16156111155174142173
+        End: 6488414162673750738
+      - Link: 6418674320758153952
+        Start: 4979777038291191367
+        End: 3687722288698934530
+      - Link: 16907559918847236214
+        Start: 11152083586795877575
+        End: 16002458958647262275
+      - Link: 9401025510448511358
+        Start: 6613802545436564526
+        End: 4166958511480807243

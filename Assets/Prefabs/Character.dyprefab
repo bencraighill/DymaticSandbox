@@ -1,0 +1,135 @@
+Prefab: 6357898760827335315
+Entities:
+  - Entity: 13702598122487859348
+    TagComponent:
+      Tag: Camera
+    Parent: 3724020406565639751
+    Children:
+      []
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: Perspective
+        PerspectiveFOV: 0.785398185
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+      Settings:
+        Bloom Threshold: 1.5
+        DOFStrength: 10
+        DOFTarget: 3.20000005
+        DOFFocusRange: 4
+        DOFFocusFalloff: 20
+  - Entity: 3724020406565639751
+    TagComponent:
+      Tag: Spring Arm
+    Parent: 6624501608439315650
+    Children:
+      - Handle: 13702598122487859348
+    TransformComponent:
+      Translation: [0, 1.29999995, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    SpringArmComponent:
+      TargetLength: 3
+      ProbeRadius: 0.119999997
+      TargetOffset: [0, 0, 0]
+      SocketOffset: [0, 0, 0]
+  - Entity: 14128270526978372491
+    TagComponent:
+      Tag: Foot
+    Parent: 1617515092374420769
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:LeftFoot
+    TransformComponent:
+      Translation: [-0.000896453857, 10.5881243, -1.28133774]
+      Rotation: [22.823307, 0.00139333354, 0.00137346471]
+      Scale: [8.84128571, 17.7662926, 1.00000203]
+    StaticMeshComponent:
+      Mesh: 17297144323292016600
+      Materials:
+        - 0
+  - Entity: 11978798907461039779
+    TagComponent:
+      Tag: Foot
+    Parent: 1617515092374420769
+    Children:
+      []
+    AttachmentComponent:
+      Bone Name: mixamorig:RightFoot
+    TransformComponent:
+      Translation: [-0.00109386444, 10.5877352, -1.28145027]
+      Rotation: [22.8231716, 0.00137736427, 0.00140943355]
+      Scale: [8.84691048, 18.0473213, 1.00000095]
+    StaticMeshComponent:
+      Mesh: 17297144323292016600
+      Materials:
+        - 0
+  - Entity: 11954493910070619092
+    TagComponent:
+      Tag: Gun Model
+    Parent: 8248473675938155892
+    Children:
+      []
+    TransformComponent:
+      Translation: [5.3369751, 32.2199097, 5.4019165]
+      Rotation: [0.58594048, 2.09830475, -11.5439005]
+      Scale: [4.17005348, 36.165287, 4.17007399]
+    StaticMeshComponent:
+      Mesh: 17297144323292016600
+      Materials:
+        - 0
+  - Entity: 8248473675938155892
+    TagComponent:
+      Tag: Gun
+    Parent: 1617515092374420769
+    Children:
+      - Handle: 11954493910070619092
+    AttachmentComponent:
+      Bone Name: mixamorig:RightHand
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+  - Entity: 1617515092374420769
+    TagComponent:
+      Tag: Mesh
+    Parent: 6624501608439315650
+    Children:
+      - Handle: 8248473675938155892
+      - Handle: 11978798907461039779
+      - Handle: 14128270526978372491
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [0.00999999978, 0.00999999978, 0.00999999978]
+    StaticMeshComponent:
+      Mesh: 716246267807772655
+      Animation Graph: 2979490730784123068
+      Materials:
+        - 0
+        - 0
+  - Entity: 6624501608439315650
+    TagComponent:
+      Tag: Character
+    Parent: 0
+    Children:
+      - Handle: 1617515092374420769
+      - Handle: 3724020406565639751
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, -0, 0]
+      Scale: [1, 1, 1]
+    ScriptComponent:
+      ClassName: Sandbox.Character
+      ScriptFields:
+        []

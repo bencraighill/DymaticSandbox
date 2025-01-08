@@ -1,0 +1,3382 @@
+Animation Graph:
+  Skeleton: 18155665851498146899
+  Graph:
+    Nodes:
+      - Node: 10655001019699502933
+        Layer: 10584807975285992804
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 12257859408760472343
+            Type: Pose
+      - Node: 15397951386520466958
+        Layer: 10518903573847939767
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 6053212514704576920
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15723411821541999636
+        Layer: 1778583384139083250
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 1014518240684755009
+            Type: Pose
+      - Node: 10267894002379027765
+        Layer: 8672073121678602869
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 17249229147405413706
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4551226967558489764
+        Layer: 2560743184820105199
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16625066731540168404
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10001340847180428033
+        Layer: 2632191067075712284
+        Type: Output
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13860900216421006642
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10601330245901674051
+        Layer: 8297394679767198809
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15386746949246754937
+            Type: Pose
+      - Node: 18338385094732735921
+        Type: Output
+        Position: [584, 60]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 8604752537721844790
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6850185189299354780
+        Layer: 11152476146287862255
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10762106533207976096
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5072664302087067588
+        Layer: 5744141500949971817
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16670028857856002823
+            Type: Pose
+      - Node: 836642452057713999
+        Layer: 3567738125099358116
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1663371071123598120
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8836465938395858430
+        Layer: 13935509615104010749
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14778114760440247957
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14190192408666081651
+        Layer: 11177324579375570362
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4748192501210124619
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10496914947150245469
+        Layer: 8833860111562614565
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 9083625154155503961
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2041614747125712496
+        Layer: 1208643820337369901
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 13074765143626413933
+            Type: Pose
+      - Node: 7092390881135363807
+        Layer: 7445761795972075942
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 15335605663469043047
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14873107356156415949
+        Layer: 15190969651552813707
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 18260318933430115061
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17257941378744346264
+        Layer: 1482596141409174723
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13518460942135152867
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9983776509103981274
+        Layer: 13075176367817669602
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5885783334796646492
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7173512737484844538
+        Layer: 15477186531995317607
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 14075989729398818084
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5895319408485724428
+        Layer: 15630916631267988028
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6797558604276557226
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 17831433739997324299
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 3444644735087945035
+        Layer: 13451513050786556383
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11561344581289740318
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13508039724119752774
+        Layer: 13158490122192571955
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13785511753745864566
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10070740303240360295
+        Layer: 10041160017268876520
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 4076921884186415490
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15368412566265161335
+        Layer: 5000145120048549225
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15909840508070364750
+            Type: Pose
+      - Node: 15299282445573173383
+        Layer: 15193787167706320057
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 12871045571953630896
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4465664102682456427
+        Layer: 7572961874284763043
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 437139870524214390
+            Type: Pose
+      - Node: 13326095108055421629
+        Layer: 1503396493040648945
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14861198471654870135
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5335355429015388367
+        Layer: 17386155380052394234
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9255269141512611246
+            Type: Pose
+      - Node: 1686174730870456400
+        Layer: 14239740672977302752
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11845010136172302718
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3998006778085045564
+        Layer: 13208255016529750589
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 2298226574146403544
+            Type: Pose
+      - Node: 6619648162563297994
+        Layer: 9945946541514133504
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3826724460816461042
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12923791400132473101
+        Layer: 16913730952538838655
+        Type: Transition
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          - Pin: 12787779872872294717
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 1588986738267231778
+            Name: Duration
+            Type: Float
+            Data: 1
+        Outputs:
+          []
+      - Node: 3696272954652137199
+        Layer: 11925114876819683651
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16382754154009427237
+            Type: Pose
+      - Node: 14567027565662935773
+        Layer: 13936475799977773095
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 8014499412955457413
+            Type: Pose
+      - Node: 363461046888005661
+        Layer: 11766664330453534177
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 257832839559294462
+            Type: Pose
+      - Node: 16149913732684732718
+        Layer: 241812528221141322
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 468658678604898330
+            Type: Pose
+      - Node: 6865842603500148313
+        Layer: 5335114732280144517
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 468795243789865638
+            Type: Pose
+      - Node: 1300459675092441589
+        Layer: 14212287553794391340
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 2159053851617134993
+            Type: Pose
+      - Node: 4967173230033024841
+        Layer: 4269657108364041173
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 18411562428212221843
+            Type: Pose
+      - Node: 16561094275444905853
+        Layer: 13223462119287753138
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 11170853366493965757
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12545466506838306917
+        Layer: 1050670037542822382
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 1415924352071433612
+            Type: Pose
+      - Node: 10351687700707270053
+        Layer: 447310235152519625
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 12383364524108006082
+            Type: Pose
+      - Node: 605895828333701217
+        Layer: 11335740732832288945
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 7983454438545034522
+            Type: Pose
+      - Node: 12532762010781302976
+        Layer: 4424516481645946744
+        Target Layer: 7202979424534551527
+        Type: Blendspace
+        Position: [-236, 0]
+        Inputs:
+          - Pin: 2544181289728759592
+            Name: X
+            Type: Float
+            Data: 0
+          - Pin: 10918932898386175893
+            Name: Y
+            Type: Float
+          - Pin: 16227976557533052853
+            Name: Scale X
+            Type: Float
+            Data: 0.100000001
+          - Pin: 121998398838876421
+            Name: Scale Y
+            Type: Float
+            Data: 0.100000001
+        Outputs:
+          - Pin: 4276050204726173572
+            Type: Pose
+      - Node: 9900423810356857234
+        Layer: 14762266320102519659
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16891710289339931957
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2291950929697990854
+        Layer: 5016149450318475897
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 4362460694243200869
+            Type: Pose
+      - Node: 2603401455927508475
+        Layer: 13643478765235113475
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13057666588928611443
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4665550456868375640
+        Layer: 10774210171364859462
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4452841235509528629
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8043009321731560550
+        Layer: 15661873650803759509
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9247979063878029804
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16449092072560170187
+        Layer: 1381086871441321765
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9015849533206962389
+            Type: Pose
+      - Node: 6382334985840684015
+        Layer: 671940448920008369
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15017708163372398723
+            Type: Pose
+      - Node: 10412064850528913845
+        Layer: 14891396573565625400
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8678041565986216325
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 1690125886600312015
+        Layer: 10608046978263514202
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9513646950879934072
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3413276989520382636
+        Layer: 628958486405232661
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16047771469587938157
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13779372250644294777
+        Layer: 2818615694688034745
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2139644193848135470
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7387141680680908369
+        Layer: 5718801479406735551
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1345131661957258646
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13297858289263782942
+        Layer: 10999363632017566080
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9200183030333258355
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10102161683343083410
+        Layer: 7235491909164358064
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11868963776357076398
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 282381761577010550
+        Layer: 3484058249004203372
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15915259872149755296
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17019108141109150772
+        Layer: 13052811707813607920
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10567643314369086685
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13750015479590551609
+        Layer: 12300055654153582998
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2436768224431680791
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 1096337796882237140
+        Layer: 2048934791153001401
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9748728075915883581
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18273496480873909037
+        Layer: 3166078233755606252
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16523645570377620217
+            Type: Pose
+      - Node: 10522597090628353879
+        Layer: 8654147792331341757
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2752272101849256398
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 1929721750209417214
+        Layer: 5088826584074051566
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11981372650183440942
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15077551198860644288
+        Layer: 15017222989242586854
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14143796097546266080
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15155664176100647323
+        Layer: 5811696852379179318
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 125356704159725755
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8681509499578227716
+        Layer: 5486808147682780306
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9225091745113950845
+            Type: Pose
+      - Node: 15998454223566532391
+        Layer: 2937559323990239909
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15318961535798323294
+            Type: Pose
+      - Node: 4810793376119886416
+        Layer: 5024964718766657051
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 3834203573510815215
+            Type: Pose
+      - Node: 14855715194338642947
+        Layer: 4498598340747912062
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 887401836102029973
+            Type: Pose
+      - Node: 715714299498613282
+        Layer: 10972888991177059340
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 8898272300838304298
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13777535341337799168
+        Layer: 3008533133521746873
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8723959758687861995
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3544912581244301944
+        Layer: 7894818606627022084
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 12169023293895497285
+            Type: Pose
+      - Node: 7384430195393249214
+        Layer: 16574369325398578430
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 17668680239013371182
+            Type: Pose
+      - Node: 9961604126158494284
+        Layer: 9261618981567382398
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9874274236595825131
+            Type: Pose
+      - Node: 7106515196980473998
+        Layer: 17816417979069767571
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8630214674885565583
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6486095228459923647
+        Layer: 8357173995177798905
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15824004897883154204
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10023642037836286791
+        Layer: 15301053983819553869
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11690521413412765845
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15071508906929730712
+        Layer: 11598414837392625653
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 16378261429170218030
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16278088359471951449
+        Layer: 13338536262673827570
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5589883720990028140
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14727121451671668788
+        Layer: 14515545027869089227
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 18233097201649428695
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 587454097404700675
+        Layer: 5909237353641818164
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15866350509620930049
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12413629967385781437
+        Layer: 15040564413955834785
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 611427347381721612
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8679727979833750323
+        Layer: 7202979424534551527
+        Type: Blendspace Animation
+        Position: [0, -48]
+        Inputs:
+          - Pin: 14961106462286195346
+            Name: Animation
+            Type: Animation
+            Data: 3014731931337868121
+        Outputs:
+          []
+      - Node: 5019226231167667507
+        Layer: 1715516484191325090
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1492846300662843755
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16122894676315507898
+        Layer: 14580575493870606956
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 17503798707496850216
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10633464188077954292
+        Layer: 12740742554790240558
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 17283198763137038584
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18107581307544990704
+        Layer: 15678093611505506118
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8493692607109169703
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2130581896706227962
+        Layer: 10040591123029117406
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9377863934709823529
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4933088228480604197
+        Layer: 12835979737869561680
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 11555114138774105791
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11973368049651990269
+        Layer: 11243997973504500363
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 6804226801421220123
+            Type: Pose
+      - Node: 11663879086658015010
+        Layer: 13705399696792880095
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4618961237747477143
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9191731547338142765
+        Layer: 12772368940171754995
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 6594688435327639519
+            Type: Pose
+      - Node: 16528820547101719926
+        Layer: 16394019349252234009
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 4819743486642793273
+            Type: Pose
+      - Node: 4701815165540841845
+        Layer: 10528809926727960714
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13647594852793512119
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13305028500997582843
+        Layer: 17068724360110999321
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 12904493630845057592
+            Type: Pose
+      - Node: 8570058591183124662
+        Layer: 5213964906636605926
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7852552369026173633
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3711988724557118116
+        Layer: 9515756530725006623
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10337698283441154289
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 5547436134646633349
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 12497362350623600881
+        Layer: 9003093485292684143
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 12321860687392149893
+            Type: Pose
+      - Node: 11709000066476327583
+        Layer: 1764522962998110272
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 19695604965110535
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 1143437206947981622
+        Layer: 7553183475225318970
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 10259277103583502921
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8628136763653013494
+        Layer: 4497327009684418992
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4236494811835499303
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5908215050683391588
+        Layer: 17867602378633566914
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9384389764536257823
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10004056843127765391
+        Layer: 2491902242309972901
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9038348523660433810
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13396224683933558110
+        Layer: 14101655780783340589
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1421619275931024658
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4917021060023886738
+        Layer: 15270429782989607999
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1399858594120108197
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15325894314961286336
+        Layer: 2340126364255662619
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 15919583696904122351
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15615607889145482922
+        Layer: 1463482454388419136
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11831231711855462695
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9349026288723898095
+        Layer: 8157153273830040589
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10616403816467369263
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6772817245096201931
+        Layer: 6971042791464977540
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15696381627830702985
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9207972477209766698
+        Layer: 2810216402462944729
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16939045483250420417
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10158386516171688721
+        Layer: 15015664545284589203
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6432922227204210742
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10262696578154693941
+        Layer: 12846699679595831356
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9975858235275314885
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3153897593964772355
+        Layer: 1114009861232662706
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4616981766397979493
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14007104352587393869
+        Layer: 6258380126611932114
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4456310087281444707
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2387239780960222753
+        Layer: 15476517958645760026
+        Type: Transition
+        Position: [40, -16]
+        Inputs:
+          - Pin: 8740848243238925653
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 4927603354204392453
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 9621108124000300810
+        Layer: 6190625362933113451
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 5696243125657236355
+            Type: Pose
+      - Node: 14232184393709720751
+        Layer: 16618959573226926098
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6849803978430210946
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9015443448175885818
+        Layer: 15063624847563487437
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 17103589829009539663
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4092932505749260542
+        Layer: 4870669438386640920
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9200803463283679468
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12134993150018502598
+        Layer: 3625997082713549340
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10000809473568947343
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16267228831973778932
+        Layer: 12999304350253918227
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8078980328046062397
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2970333806963226027
+        Layer: 11076442597343653008
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11225414575172356823
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13930554633468306913
+        Layer: 11547488790939977901
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15748927243801667308
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14913819943825180042
+        Layer: 13957757844877491981
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15331647178686156874
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15023841135965120086
+        Layer: 4468131952437490027
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1782168510793908431
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12089556582454715634
+        Layer: 1840713382386945651
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14542364227512279623
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 654851507279487
+        Layer: 6278243727998280223
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7747663453403875716
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12530379998762809510
+        Layer: 12646727359029270642
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 14812088182532589961
+            Type: Pose
+      - Node: 12564390094307379874
+        Layer: 6003820885347551201
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 17751896498147352059
+            Type: Pose
+      - Node: 13679301662377675738
+        Layer: 1895257439087979025
+        Type: Transition
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          - Pin: 17327683348373576757
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 13419664261989597278
+            Name: Duration
+            Type: Float
+            Data: 1
+        Outputs:
+          []
+      - Node: 1815577850417752935
+        Layer: 17319786308527930107
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 593525093357780868
+            Type: Pose
+      - Node: 12265723170327724302
+        Layer: 9742649521741242874
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 12827669496241757908
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6759003957797910030
+        Layer: 7201183480693577190
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 1576376270292583961
+            Type: Pose
+      - Node: 15423806381932914065
+        Layer: 18012284163230251375
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13281510492431925458
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4530488082265833674
+        Layer: 8069209111408861600
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 13752804920249271056
+            Type: Pose
+      - Node: 3543007296259839422
+        Layer: 6593797046112874579
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 10297252518863344027
+            Type: Pose
+      - Node: 3758944517612278995
+        Layer: 3083166560226375907
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 8073399588276096134
+            Type: Pose
+      - Node: 15595881301053259508
+        Layer: 13999071368059210343
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11205999930704401308
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 1483481803988952591
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 4065195925006956881
+        Layer: 2022650285719202292
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 4384627302944612827
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7901455901855144674
+        Layer: 10456686402905764574
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5099380682218795770
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2145241388668315363
+        Layer: 2651023557588318712
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 14086176457552404446
+            Type: Pose
+      - Node: 15513310019605203751
+        Layer: 8785097150772576735
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3755443379451763039
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4300054221804960389
+        Layer: 8907052651328528840
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 6421082528635388872
+            Type: Pose
+      - Node: 3205522378943832570
+        Layer: 2166213309997195552
+        Type: Output
+        Position: [72, -36]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5026972941512016253
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16544889399249599526
+        Type: Layered Blend per Bone
+        Position: [208, 64]
+        Inputs:
+          - Pin: 7464710931024050235
+            Name: Base
+            Type: Pose
+          - Pin: 9050683048308103599
+            Name: Blend Pose 0
+            Type: Pose
+          - Pin: 8756351602062593713
+            Name: Blend Weight 0
+            Type: Float
+            Data: 1
+        Outputs:
+          - Pin: 17971027406471015910
+            Type: Pose
+        Blend Pose Filters:
+          -
+            - Bone Name: mixamorig:Spine
+              Blend Depth: 0
+      - Node: 5057282699187721555
+        Layer: 6893407967029729546
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 292492311086629759
+            Type: Pose
+      - Node: 17071414067077038206
+        Layer: 13411684526654297125
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7862871567436883018
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 18170872817436303467
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 15504794083581096475
+        Layer: 7892900389058898988
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13951238555045451613
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8436333772836711567
+        Layer: 9736974784740784353
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3748604919934562977
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7919367300597194837
+        Layer: 13421840746839105496
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 13803558692168889858
+            Type: Pose
+      - Node: 1358394709656651652
+        Layer: 8351605765095789828
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2697325136346617397
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8320895727696444532
+        Layer: 4959396448471808257
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 7126657912250574394
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2462262661799274273
+        Layer: 18379527693014308032
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5949447589552057532
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3097788866597129903
+        Layer: 11307932341674260147
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 1733009499999753808
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11472244791992339445
+        Layer: 2643631502373081448
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16434388553630026282
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17081890159082779911
+        Layer: 10439753031675904412
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3141378064526622101
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17019702307216209392
+        Layer: 10599641253368006707
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 4698708722855429381
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5627043502769192446
+        Layer: 13886902932137093613
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13386566956492496828
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15376367223193595685
+        Layer: 2998846054288389627
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 12202211380045624903
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2122591069939381445
+        Layer: 16880092369021520941
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 8912227027417555624
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6486480931673517412
+        Layer: 7080228047931883076
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 6045837493599636126
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13956364096995709954
+        Layer: 3559946325709728786
+        Type: Transition
+        Position: [-8, -32]
+        Inputs:
+          - Pin: 10752231093294466684
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 4161500325215618117
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 8700198725567873622
+        Layer: 6638236933828403877
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5132697952329205035
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17541982116765674862
+        Layer: 14961455373295638058
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 11238189836502766980
+            Type: Pose
+      - Node: 437751970532837267
+        Layer: 16840078768542261639
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3555040311608527210
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16810699921491232550
+        Layer: 17034321393255620817
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13926579275765799277
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3194381651014347794
+        Layer: 17904214596634964372
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6132295689511974125
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2776811346866708444
+        Layer: 14911717308210092995
+        Type: Transition
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          - Pin: 14691421180113781887
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 5675517897652956272
+            Name: Duration
+            Type: Float
+            Data: 1
+        Outputs:
+          []
+      - Node: 4763100915273250845
+        Layer: 4083998374646980603
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 14309822889726692678
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2108312369843966956
+        Layer: 8381947770270703070
+        Type: Entry
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 5195084739236830230
+            Type: Pose
+      - Node: 3479238189552916689
+        Layer: 14529609254089916361
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3049611558884654029
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 7459861992032356402
+            Name: Duration
+            Type: Float
+            Data: 1
+        Outputs:
+          []
+      - Node: 2821138973934124963
+        Layer: 11171819562037356524
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11999759558613384318
+            Name: Transition
+            Type: Bool
+            Data: true
+          - Pin: 2418110436780891105
+            Name: Duration
+            Type: Float
+            Data: 1
+        Outputs:
+          []
+      - Node: 5272502841119447861
+        Layer: 3262249576446989087
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5150820686286595487
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10761590689982573433
+        Layer: 14527999512105026349
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2718806991905414948
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9686136809040925759
+        Layer: 7956497706433546356
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 18028126704282903511
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9688574620337151746
+        Layer: 4241561053742993384
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 17947804242203957389
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18047699192321612622
+        Layer: 8586242557138799428
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 14682417178181231838
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8728302811032998863
+        Layer: 12420106272331759230
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 12985048787509660677
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4408238026371014499
+        Layer: 7087170610440047750
+        Type: NOT
+        Position: [-214, -40]
+        Inputs:
+          - Pin: 8308393417684763778
+            Type: Bool
+        Outputs:
+          - Pin: 13528819637899692213
+            Type: Bool
+      - Node: 2171953806033360417
+        Layer: 8722546302194791166
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6915354810556250883
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 16479001276956858366
+        Layer: 8331861892279512467
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 6149934078989072412
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6790360462025141518
+        Layer: 13824021250342122683
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 524732718473465644
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12792024907412520860
+        Layer: 12522747829148668964
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 7659755319294713206
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4517507957648420834
+        Layer: 12099036678901859861
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 16158947435049968958
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10836490718172244334
+        Layer: 13061044196256097526
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14195928875289271367
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15937837256397995216
+        Layer: 2533438190379659764
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 5397075233090489393
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4095678484304514449
+        Layer: 7019563352985146817
+        Type: Transition
+        Position: [40, 12]
+        Inputs:
+          - Pin: 11513644884955441694
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 9576776428318494869
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 6402241674137539955
+        Layer: 4401086878282216722
+        Type: Output
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3767903925710927535
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8572017867473535825
+        Layer: 11677956800677615754
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 4591186809034895625
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6165015476964223812
+        Target Layer: 4498598340747912062
+        Type: State Machine
+        Position: [-66, 45]
+        Inputs:
+          - Pin: 3272731175371479590
+            Name: Max Transitions Per Frame
+            Type: Int
+            Data: 3
+          - Pin: 12227072991136765027
+            Name: Skip First Update Transition
+            Type: Bool
+            Data: true
+        Outputs:
+          - Pin: 12405288600645765872
+            Name: State
+            Type: Pose
+      - Node: 6881977232714795618
+        Layer: 1285491865788956012
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 17549296763789256476
+            Type: Pose
+      - Node: 5476580492990043981
+        Layer: 12609361152397875774
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16607908009292921404
+            Type: Pose
+      - Node: 15158423951669509891
+        Layer: 5107334467908774216
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 3329630780262437836
+            Type: Pose
+      - Node: 7786747193355682720
+        Layer: 17225090227059957893
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 14167712944347475627
+            Type: Pose
+      - Node: 7426300442660898946
+        Layer: 8395236569171036628
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9419929939514157055
+            Type: Pose
+      - Node: 6754099254242125462
+        Layer: 11284928945047731032
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 4266976425797377589
+            Type: Pose
+      - Node: 13595088492909105775
+        Layer: 12100586036811019194
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 6746884007761778065
+            Type: Pose
+      - Node: 17135672915732323728
+        Layer: 17784340473742553575
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7957547622305323513
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11317145078143389713
+        Layer: 2653200422050738926
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16993613298443712433
+            Type: Pose
+      - Node: 8648605844040676231
+        Layer: 5476719395857920913
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15889616703024231012
+            Type: Pose
+      - Node: 17308949175836764456
+        Layer: 12555096891888033206
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 3959988576163166633
+            Type: Pose
+      - Node: 15461458307361208980
+        Layer: 2194170961748621950
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15840025401545248120
+            Type: Pose
+      - Node: 1103221664244816916
+        Layer: 4498598340747912062
+        Target Layer: 4424516481645946744
+        Type: State
+        Position: [292, -13]
+        Name: Locomotion
+        Inputs:
+          - Pin: 12925543787511706513
+            Type: Pose
+        Outputs:
+          - Pin: 10006195678428315741
+            Type: Pose
+      - Node: 7349634477750046534
+        Layer: 4009757553025505305
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 7919324229488755725
+            Type: Pose
+      - Node: 168703988242928173
+        Layer: 8691471710859050993
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4521622679049669877
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8036055719993088928
+        Layer: 15205367717190025644
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6980619204743024791
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8398322533511085959
+        Layer: 2884671838891378607
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8774698106956959571
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6440207120446603934
+        Layer: 16873642361444097822
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 18372513777754531840
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15614113067351290995
+        Layer: 13471727943226095782
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14878505357926803188
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 972681683051234790
+        Layer: 10146485994814557204
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3533952510666571824
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17860705243312786611
+        Layer: 274271315643112308
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4163533392383659619
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6791318225660731225
+        Layer: 6326300283820846818
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 42164294080449942
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6301614320544946954
+        Layer: 15233913128273502698
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7401262774795033407
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7188121995130364836
+        Layer: 5418997391973117289
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15465644270901858794
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3740506713024096694
+        Layer: 5512362498358224992
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13373926173940013799
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9962119686035401117
+        Layer: 3058602338121167517
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13575237607433392256
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4400919206454419461
+        Layer: 1558414460379751827
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 11516004468307727825
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12756700211777495515
+        Layer: 5063720919254051361
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3993891381117363950
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13817449560657977734
+        Layer: 4454326697578009690
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1389699860917809614
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12233556888315003481
+        Layer: 11671517732604365102
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1209995944866712790
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7171155612037066916
+        Layer: 6323803797111554918
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 12385266034670493287
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12436393260418918428
+        Layer: 2531448007443995432
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 4075656966083948601
+            Type: Pose
+      - Node: 14084661017876333213
+        Layer: 16059189560141377646
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 17382402376707786804
+            Type: Pose
+      - Node: 14181682111627819952
+        Layer: 2982865201836312344
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16413899382892023708
+            Type: Pose
+      - Node: 7285623595518034356
+        Layer: 12173010010445771248
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 15759247396502749508
+            Type: Pose
+      - Node: 6189739791265047399
+        Layer: 6308850283721781029
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 9775304328775490096
+            Type: Pose
+      - Node: 14676014188122866044
+        Layer: 16514047587911682070
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 16951058550286866290
+            Type: Pose
+      - Node: 12932530804271852170
+        Layer: 1314201156913542570
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 5392588514108744412
+            Type: Pose
+      - Node: 10159121165086421327
+        Layer: 12415621046868747836
+        Type: Entry
+        Position: [0, 0]
+        Inputs:
+          []
+        Outputs:
+          - Pin: 1547949686515927218
+            Type: Pose
+      - Node: 6059106503441158165
+        Layer: 11999838588657222992
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15130745325466653390
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18331899213401682976
+        Layer: 15595758674224256013
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2367410832865846468
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 17233333344646780043
+        Layer: 6735162062855673367
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16391700165032455561
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 4574025895701404719
+        Layer: 13908134845160199876
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 1768907220484514382
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14959854271987532807
+        Layer: 5320667722131545962
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9380603256617225464
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11477437285216560534
+        Layer: 16419777403077026504
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15704953518202290296
+            Name: Transition
+            Type: Bool
+            Data: true
+          - Pin: 14055553024755345745
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 55842921935164220
+        Layer: 10232787049487956802
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7670252172487285529
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11305733010191451530
+        Layer: 13155699372366547140
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6199166633026870273
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5453397838013307158
+        Layer: 6161840079378908899
+        Type: Transition
+        Position: [137, 17]
+        Inputs:
+          - Pin: 16378743180706324557
+            Name: Transition
+            Type: Bool
+            Data: true
+          - Pin: 2713523573896786132
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 5157180913151407589
+        Layer: 13205280471108363940
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6683546395062729507
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8088453761848186491
+        Layer: 784509482843424882
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13933812510962648634
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 373541827733989195
+        Layer: 4772262887410465997
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10825046748905124895
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9123528375186360746
+        Layer: 1131368905337998898
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 4180196630474906559
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10648690314097158072
+        Layer: 565308198382670362
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5413840859536227406
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13397959702896007012
+        Layer: 2169136733790657752
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14979720591986268292
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9017421798781981331
+        Layer: 2422187438570504344
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2395138052729487760
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6605381309609787570
+        Layer: 14193527370533534792
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 424966778575845518
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10089743794286610583
+        Layer: 15105653380140574129
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7503762426673599722
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11293427822152501731
+        Layer: 5998539731582575332
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 13616890532343547760
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11929351917559210970
+        Layer: 11488896355088840098
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 3003114336509817924
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 426529054501756333
+        Layer: 11873352435181388587
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 10518185757920250141
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3966132663788318263
+        Layer: 3867855398226441753
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 11621794636634801054
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11656772218816498846
+        Layer: 5989680564086911542
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 6561994017950413683
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13611277848586393231
+        Layer: 12879310516068058242
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2770751736509282577
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 14072934993539678703
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 9942481824175315860
+        Layer: 1731737298169875831
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 7047748157632985896
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 71226614536225166
+        Layer: 635926869079299769
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3916135468705247944
+            Name: Transition
+            Type: Bool
+            Data: true
+          - Pin: 3943753551898147036
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 5258848259024843689
+        Layer: 12753314367308870019
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13230895360151859916
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 15436116584413997249
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 701292684516081682
+        Layer: 5225961252166982692
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3082435674272119991
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 14609131646633583788
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 3305240034101907842
+        Layer: 595911394315580245
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6644493797043582400
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 16070568019047320718
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 3643839703856528580
+        Layer: 1029909875316767975
+        Type: Parameter
+        Position: [-245, -75]
+        Name: Falling
+        Inputs:
+          - Pin: 11385673281187613276
+            Name: Default
+            Type: Bool
+            Data: false
+        Outputs:
+          - Pin: 12094015736801118887
+            Type: Bool
+      - Node: 3009618135859448772
+        Layer: 1886610024332507205
+        Type: Output
+        Position: [0, 0]
+        Comment: The output node of the animation graph.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 12316343842871213838
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9322409620245413777
+        Layer: 2458152279225325610
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 6799908520381298969
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11864828848279193794
+        Layer: 15980599237708006424
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5992348572809623792
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11161557959741487575
+        Layer: 17756268039466039034
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13546145723231302474
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3848005281935377103
+        Layer: 14240852742248079763
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 3181390349074542661
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10116375398628829825
+        Layer: 11978616412248253392
+        Type: Output
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          - Pin: 6856494669913770049
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10375153881275496414
+        Layer: 12602623838075767748
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 12300169548811215062
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7858049348378264780
+        Layer: 764823103596702477
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15446181557456962610
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 2227513042924377801
+        Layer: 13115148148803386330
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16720010438023764827
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18263315435423652721
+        Layer: 12821442437552264528
+        Type: Output
+        Position: [-2.14748365e+09, -2.14748365e+09]
+        Inputs:
+          - Pin: 13157027942101754201
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 5947445673677230787
+        Layer: 4498598340747912062
+        Target Layer: 7664173786282751509
+        Type: State
+        Position: [708, -13]
+        Name: Jump Loop
+        Inputs:
+          - Pin: 2292895814373738651
+            Type: Pose
+        Outputs:
+          - Pin: 16667626991568196863
+            Type: Pose
+      - Node: 3354552964444753803
+        Layer: 2785191626937444876
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8328784989294790018
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12106577957386188695
+        Layer: 7087170610440047750
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 8123439307950969819
+            Name: Transition
+            Type: Bool
+          - Pin: 2805205753866799092
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 13110686472665659052
+        Layer: 1778545557513339718
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14438068287552967474
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 15235585502818776173
+        Layer: 1208668122592693702
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2748402690873593761
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8044444903211139820
+        Layer: 9568873568571811302
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15962020888734730630
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 11382636430502911019
+        Layer: 8829100938942895500
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13201941022568807704
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6492085183035074133
+        Layer: 7354241549238782772
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 17848618854023719491
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9988360297208662852
+        Layer: 15056541289688728581
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 13639098121657773504
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6458212873628447864
+        Layer: 3653240351809256661
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15120300996965427928
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3696761112377983969
+        Layer: 7664173786282751509
+        Type: Player
+        Position: [-252, 9]
+        Inputs:
+          - Pin: 3943655198704154847
+            Type: Animation
+            Data: 7615602989708506593
+          - Pin: 8372916932341665596
+            Name: Play Rate
+            Type: Float
+            Data: 1
+        Outputs:
+          - Pin: 5704007510936725787
+            Type: Pose
+      - Node: 11444326500947896334
+        Layer: 5620048854797357612
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 12094069267617540075
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14877744694908706979
+        Layer: 8157659550750997874
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14898781622318314135
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10261788311777831180
+        Layer: 6234336167218575420
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5532613612043954760
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 12384426184720337205
+        Layer: 5791111838361303907
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5821199662700861579
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 18034576659138220344
+        Layer: 12144962546390644335
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 10726473420723087962
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13075115816297280971
+        Layer: 11386064794414601011
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 14534760553162331718
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 13468132996505870101
+        Layer: 7350106217047459165
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 16191600022119369114
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 9265268562738740997
+        Layer: 7664173786282751509
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15014567610740234709
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 8380717790453029273
+        Layer: 12923032296705993332
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 7723585771024348889
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 13134887366064251845
+            Name: Duration
+            Type: Float
+            Data: 0.400000006
+        Outputs:
+          []
+      - Node: 8926854462071782988
+        Layer: 7513968687359084227
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15173230544103088817
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 8184934990251052803
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 6744363160907637566
+        Layer: 9892189556647854290
+        Type: Transition
+        Position: [-8, 0]
+        Inputs:
+          - Pin: 18087467325916286347
+            Name: Transition
+            Type: Bool
+            Data: false
+          - Pin: 914589627562737562
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 11216408612591867926
+        Layer: 11267548664101811194
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9978275089004771027
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 7656634236818382963
+        Layer: 5452264369191293261
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 15838889882628571334
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10298483608485569724
+        Layer: 12270533337797488231
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 5740540784170621158
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 3484820944507337716
+        Layer: 2290308940842455552
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9868271896465779000
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 10014474117687704258
+        Layer: 459824591458300240
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 12638006777931676017
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 14734561370879913171
+        Layer: 4424516481645946744
+        Type: Output
+        Position: [0, 0]
+        Inputs:
+          - Pin: 2044538834820118330
+            Name: Output Pose
+            Type: Pose
+        Outputs:
+          []
+      - Node: 6805544719275770865
+        Layer: 1029909875316767975
+        Type: Transition
+        Position: [0, 0]
+        Inputs:
+          - Pin: 9297811457538929022
+            Name: Transition
+            Type: Bool
+          - Pin: 3502264182194673079
+            Name: Duration
+            Type: Float
+            Data: 0.200000003
+        Outputs:
+          []
+      - Node: 9071181822221667444
+        Layer: 7087170610440047750
+        Type: Parameter
+        Position: [-393, -84]
+        Name: Falling
+        Inputs:
+          - Pin: 5725194931121807308
+            Name: Default
+            Type: Bool
+            Data: false
+        Outputs:
+          - Pin: 11629560784748404581
+            Type: Bool
+      - Node: 3361592025341706082
+        Layer: 4424516481645946744
+        Type: Parameter
+        Position: [-488, -20]
+        Name: Speed
+        Inputs:
+          - Pin: 14249573056317868387
+            Name: Default
+            Type: Float
+            Data: 0
+        Outputs:
+          - Pin: 2932606118250679769
+            Type: Float
+      - Node: 6845883730805265609
+        Layer: 7202979424534551527
+        Type: Blendspace Animation
+        Position: [0, -128]
+        Inputs:
+          - Pin: 6990677693730350206
+            Name: Animation
+            Type: Animation
+            Data: 16352054162392774949
+        Outputs:
+          []
+      - Node: 10892400084611048519
+        Layer: 7202979424534551527
+        Type: Blendspace Animation
+        Position: [0, -320]
+        Inputs:
+          - Pin: 3549670691843849559
+            Name: Animation
+            Type: Animation
+            Data: 14211919804751155688
+        Outputs:
+          []
+      - Node: 17320248399212553183
+        Type: Player
+        Position: [-76, 173]
+        Inputs:
+          - Pin: 1547755651055148993
+            Type: Animation
+            Data: 17188160345478603439
+          - Pin: 15874077956823264842
+            Name: Play Rate
+            Type: Float
+            Data: 1
+        Outputs:
+          - Pin: 593893952309787153
+            Type: Pose
+    Links:
+      - Link: 4148137178223258239
+        Start: 5704007510936725787
+        End: 15014567610740234709
+      - Link: 616092550539459119
+        Start: 11629560784748404581
+        End: 8308393417684763778
+      - Link: 13957601406210758665
+        Start: 10006195678428315741
+        End: 2292895814373738651
+        Target Layer: 1029909875316767975
+      - Link: 5796574867888314969
+        Start: 887401836102029973
+        End: 12925543787511706513
+      - Link: 9465123794013823731
+        Start: 16667626991568196863
+        End: 12925543787511706513
+        Target Layer: 7087170610440047750
+      - Link: 4702380672404702574
+        Start: 17971027406471015910
+        End: 8604752537721844790
+      - Link: 7581511297529946280
+        Start: 12094015736801118887
+        End: 9297811457538929022
+      - Link: 16560130449574121633
+        Start: 13528819637899692213
+        End: 8123439307950969819
+      - Link: 5110723862663278565
+        Start: 4276050204726173572
+        End: 2044538834820118330
+      - Link: 6509873241254022455
+        Start: 2932606118250679769
+        End: 10918932898386175893
+      - Link: 11427646527610160798
+        Start: 12405288600645765872
+        End: 7464710931024050235
+      - Link: 5429843881932425449
+        Start: 593893952309787153
+        End: 9050683048308103599

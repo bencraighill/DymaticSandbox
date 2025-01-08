@@ -1,0 +1,131 @@
+Material:
+  Usage: Surface
+  AlphaBlendMode: Opaque
+  Graph:
+    Nodes:
+      - Node: 14969774784977796282
+        Type: Texture Sample
+        Position: [-312, -108]
+        Inputs:
+          - Pin: 7392876098236815078
+            Name: UVs
+            Type: Vector2
+            Data: [0, 0]
+          - Pin: 15851061437032663572
+            Name: Tex
+            Type: Texture
+            Data: 4920537201060941019
+        Outputs:
+          - Pin: 4834255508531614778
+            Name: RGB
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 14787506545096073580
+            Name: R
+            Type: Float
+            Data: 0
+          - Pin: 10317601873399376299
+            Name: G
+            Type: Float
+            Data: 0
+          - Pin: 15829582353178403214
+            Name: B
+            Type: Float
+            Data: 0
+          - Pin: 15011840761713736156
+            Name: A
+            Type: Float
+            Data: 0
+          - Pin: 3418590427254845427
+            Name: RGBA
+            Type: Vector4
+            Data: [0, 0, 0, 0]
+      - Node: 3116367024426981221
+        Type: Result
+        Position: [0, 0]
+        Comment: Result node of the Material.
+        Comment Color: [1, 1, 1]
+        Comment Pinned: true
+        Inputs:
+          - Pin: 14017622060910566208
+            Name: Albedo
+            Type: Vector3
+            Data: [1, 1, 1]
+          - Pin: 16049541354944364232
+            Name: Normal
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 18195676720949774420
+            Name: Emissive
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 8986497742124743924
+            Name: Roughness
+            Type: Float
+            Data: 1
+          - Pin: 16022664300769771068
+            Name: Metallic
+            Type: Float
+            Data: 0.200000003
+          - Pin: 12714126723726896116
+            Name: Specular
+            Type: Float
+            Data: 1
+          - Pin: 5940679310119813124
+            Name: Ambient Occlusion
+            Type: Float
+            Data: 1
+          - Pin: 539471868557952381
+            Name: Alpha
+            Type: Float
+            Data: 1
+          - Pin: 1734888167376967701
+            Name: World Displacement
+            Type: Vector3
+            Data: [0, 0, 0]
+        Outputs:
+          []
+      - Node: 2470246704373029657
+        Type: Texture Sample
+        Position: [-312, 132]
+        Inputs:
+          - Pin: 1279897064762906225
+            Name: UVs
+            Type: Vector2
+            Data: [0, 0]
+          - Pin: 15849655256447804439
+            Name: Tex
+            Type: Texture
+            Data: 14058606896713460772
+        Outputs:
+          - Pin: 16987585172938367340
+            Name: RGB
+            Type: Vector3
+            Data: [0, 0, 0]
+          - Pin: 2567148931487752732
+            Name: R
+            Type: Float
+            Data: 0
+          - Pin: 11264796835112500073
+            Name: G
+            Type: Float
+            Data: 0
+          - Pin: 10036276427707531741
+            Name: B
+            Type: Float
+            Data: 0
+          - Pin: 11182191633646415934
+            Name: A
+            Type: Float
+            Data: 0
+          - Pin: 5474480691195707154
+            Name: RGBA
+            Type: Vector4
+            Data: [0, 0, 0, 0]
+    Links:
+      - Link: 3901409076082482939
+        Start: 4834255508531614778
+        End: 14017622060910566208
+      - Link: 434886423260767065
+        Start: 16987585172938367340
+        End: 16049541354944364232
